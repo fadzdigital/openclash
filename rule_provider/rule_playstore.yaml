@@ -1,0 +1,46 @@
+# fadzdigital
+# Rule untuk Google Play Store
+
+payload:
+  # Play Store - Domain Suffixes
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,play-fe.googleapis.com
+  - DOMAIN-SUFFIX,play-lh.googleusercontent.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,play-apps-download.googleusercontent.com
+  - DOMAIN-SUFFIX,play-pa.googleapis.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,playatoms-pa.googleapis.com
+  - DOMAIN-SUFFIX,instantbuy.googleapis.com
+  - DOMAIN-SUFFIX,www.googleapis.com
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,playatoms-pa.googleapis.com
+  - DOMAIN-SUFFIX,odc.officeapps.live.com
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,playbooks.googleapis.com
+  
+  # Play Store - Domain Keywords
+  - DOMAIN-KEYWORD,play.app.goo.gl
+  - DOMAIN-KEYWORD,play.google
+  - DOMAIN-KEYWORD,googleplay
+  - DOMAIN-KEYWORD,playstoreapi
+  
+  # Play Store - IP Ranges
+  - IP-CIDR,172.217.0.0/16,no-resolve
+  - IP-CIDR,64.233.160.0/19,no-resolve
+  - IP-CIDR,66.102.0.0/20,no-resolve
+  - IP-CIDR,66.249.80.0/20,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR,216.58.200.0/24,no-resolve
+  - IP-CIDR,216.58.220.0/24,no-resolve
+  - IP-CIDR,108.177.8.0/21,no-resolve
+  - IP-CIDR,142.250.0.0/15,no-resolve
+  - IP-CIDR,172.110.32.0/21,no-resolve
+  - IP-CIDR,172.217.0.0/16,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve

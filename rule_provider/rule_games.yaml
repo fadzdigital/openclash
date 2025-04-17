@@ -1,0 +1,107 @@
+# Rule Games untuk OpenClash
+# by @fadzdigital
+payload:
+  # Platform Game
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.net
+  - DOMAIN-SUFFIX,nintendo.jp
+  - DOMAIN-SUFFIX,nintendo-europe.com
+  - DOMAIN-SUFFIX,nintendoswitch.com
+  - DOMAIN-SUFFIX,nintendo3ds.com
+  - DOMAIN-SUFFIX,nintendowifi.net
+  
+  # Playstation
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,psn.com
+  - DOMAIN-SUFFIX,ps4.sx
+  - DOMAIN-SUFFIX,ps5.sx
+  
+  # Xbox
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,xboxgamepass.com
+  - DOMAIN-SUFFIX,xbox360.com
+  - DOMAIN-SUFFIX,xboxab.com
+  
+  # Epic Games
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,unrealtournament.com
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-SUFFIX,easyanticheat.net
+  
+  # Origin & EA
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN-SUFFIX,battlefield.com
+  - DOMAIN-SUFFIX,easports.com
+  - DOMAIN-SUFFIX,eagames.com
+  - DOMAIN-SUFFIX,electronicarts.com
+  
+  # Ubisoft
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,ubi.com
+  - DOMAIN-SUFFIX,uplay.com
+  - DOMAIN-SUFFIX,ubisoft-orbit-prod.s3.amazonaws.com
+  - DOMAIN-SUFFIX,ubisoftconnect.com
+  
+  # Blizzard & Battle.net
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,battlenet.com
+  - DOMAIN-SUFFIX,battlenet.com.cn
+  
+  # Riot Games
+  - DOMAIN-SUFFIX,riotgames.com
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,leagueoflegends.com
+  - DOMAIN-SUFFIX,leagueoflegends.info
+  - DOMAIN-SUFFIX,leaguegame.net
+  - DOMAIN-SUFFIX,rgpub.io
+  - DOMAIN-SUFFIX,valorant.com
+  
+  # Rockstar Games
+  - DOMAIN-SUFFIX,rockstargames.com
+  - DOMAIN-SUFFIX,rsg.sc
+  - DOMAIN-SUFFIX,rockstarsocial.club
+  
+  # Game Distribution Platforms
+  - DOMAIN-SUFFIX,gog.com
+  - DOMAIN-SUFFIX,gogalaxy.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,itch.io
+  
+  # Game Streaming
+  - DOMAIN-SUFFIX,shadow.tech
+  - DOMAIN-SUFFIX,parsec.app
+  - DOMAIN-SUFFIX,rainway.com
+  - DOMAIN-SUFFIX,stadia.google.com
+  - DOMAIN-SUFFIX,stadia.dev
+  
+  # Game Communities
+  - DOMAIN-SUFFIX,gamepedia.com
+  - DOMAIN-SUFFIX,nexusmods.com
+  - DOMAIN-SUFFIX,moddrop.com
+  - DOMAIN-SUFFIX,curseforge.com
+  
+  # Game News & Reviews
+  - DOMAIN-SUFFIX,ign.com
+  - DOMAIN-SUFFIX,gamespot.com
+  - DOMAIN-SUFFIX,polygon.com
+  - DOMAIN-SUFFIX,kotaku.com
+  - DOMAIN-SUFFIX,pcgamer.com
+  
+  # Process Names
+  - PROCESS-NAME,Steam
+  - PROCESS-NAME,steam
+  - PROCESS-NAME,EpicGamesLauncher
+  - PROCESS-NAME,Origin
+  - PROCESS-NAME,Battle.net
+  - PROCESS-NAME,UbisoftConnect
+  - PROCESS-NAME,RiotClient
+  - PROCESS-NAME,RockstarLauncher

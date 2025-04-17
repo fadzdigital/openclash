@@ -1,0 +1,317 @@
+# Rule untuk openclash bank
+# by @fadzdigital
+
+payload:
+  # Bank Indonesia
+  - DOMAIN-SUFFIX,bi.go.id
+  - DOMAIN-SUFFIX,bankindonesia.go.id
+  
+  # OJK
+  - DOMAIN-SUFFIX,ojk.go.id
+  
+  # Bank Mandiri
+  - DOMAIN-SUFFIX,bankmandiri.co.id
+  - DOMAIN-SUFFIX,mandiri.co.id
+  - DOMAIN-SUFFIX,mandirikartukredit.co.id
+  - DOMAIN-SUFFIX,mandirionline.co.id
+  - DOMAIN-SUFFIX,mandiridigital.co.id
+  - DOMAIN-SUFFIX,mandiricloud.co.id
+  - DOMAIN-SUFFIX,livin.id
+  - DOMAIN-SUFFIX,livinbyapp.id
+  - DOMAIN-SUFFIX,mandiri-investasi.co.id
+  - DOMAIN-SUFFIX,kopra.co.id
+  
+  # BCA
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-SUFFIX,klikbca.com
+  - DOMAIN-SUFFIX,mybca.co.id
+  - DOMAIN-SUFFIX,bluebca.com
+  - DOMAIN-SUFFIX,bca.id
+  - DOMAIN-SUFFIX,bcadigital.co.id
+  - DOMAIN-SUFFIX,bcasyariah.co.id
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-SUFFIX,blubybca.com
+  - DOMAIN-SUFFIX,bakmiebca.com
+  - DOMAIN-SUFFIX,layarqris.co.id
+  - DOMAIN-SUFFIX,bcafinance.co.id
+  - DOMAIN-SUFFIX,bcasekuritas.co.id
+  - DOMAIN-SUFFIX,bcalife.co.id
+  - DOMAIN-SUFFIX,blubyapp.id
+  
+  # BNI
+  - DOMAIN-SUFFIX,bni.co.id
+  - DOMAIN-SUFFIX,bni.id
+  - DOMAIN-SUFFIX,bnidigital.id
+  - DOMAIN-SUFFIX,bnisyariah.co.id
+  - DOMAIN-SUFFIX,bnibrilian.com
+  - DOMAIN-SUFFIX,bnisekuritas.co.id
+  - DOMAIN-SUFFIX,bni46.co.id
+  
+  # BRI
+  - DOMAIN-SUFFIX,bri.co.id
+  - DOMAIN-SUFFIX,bri.id
+  - DOMAIN-SUFFIX,briagro.co.id
+  - DOMAIN-SUFFIX,brispot.co.id
+  - DOMAIN-SUFFIX,brisyariah.co.id
+  - DOMAIN-SUFFIX,satelitbri.com
+  - DOMAIN-SUFFIX,brimo.co.id
+  - DOMAIN-SUFFIX,brisekolah.co.id
+  - DOMAIN-SUFFIX,brilife.co.id
+  - DOMAIN-SUFFIX,brisekuritas.com
+  
+  # Jago
+  - DOMAIN-SUFFIX,jago.co.id
+  - DOMAIN-SUFFIX,jagomobile.co.id
+  - DOMAIN-SUFFIX,jagoapi.co.id
+  - DOMAIN-SUFFIX,jago.id
+  - DOMAIN-SUFFIX,bankjago.com
+  - DOMAIN-SUFFIX,jagopay.id
+  - DOMAIN-SUFFIX,banksinarmas.com
+  - DOMAIN-KEYWORD,jago
+  - DOMAIN-KEYWORD,bankjago
+  
+  # CIMB Niaga
+  - DOMAIN-SUFFIX,cimbniaga.co.id
+  - DOMAIN-SUFFIX,octo.com
+  - DOMAIN-SUFFIX,octoclicks.co.id
+  - DOMAIN-SUFFIX,cimbclicks.co.id
+  - DOMAIN-SUFFIX,octomobile.co.id
+  - DOMAIN-SUFFIX,cimbsyariah.co.id
+  
+  # Bank Permata
+  - DOMAIN-SUFFIX,permatabank.com
+  - DOMAIN-SUFFIX,permatamobile.com
+  - DOMAIN-SUFFIX,permatanet.com
+  - DOMAIN-SUFFIX,permatabusinesslink.com
+  
+  # Bank OCBC NISP
+  - DOMAIN-SUFFIX,ocbcnisp.com
+  - DOMAIN-SUFFIX,ocbc.id
+  - DOMAIN-SUFFIX,nyala.id
+  - DOMAIN-SUFFIX,ocbcnispapp.com
+  
+  # Bank Mega
+  - DOMAIN-SUFFIX,bankmega.com
+  - DOMAIN-SUFFIX,megasyariah.co.id
+  - DOMAIN-SUFFIX,megadigital.id
+  
+  # Bank BTN
+  - DOMAIN-SUFFIX,btn.co.id
+  - DOMAIN-SUFFIX,btnproperti.co.id
+  - DOMAIN-SUFFIX,btnsyariah.co.id
+  
+  # Bank Danamon
+  - DOMAIN-SUFFIX,danamon.co.id
+  - DOMAIN-SUFFIX,danamonline.com
+  - DOMAIN-SUFFIX,danamon.id
+  - DOMAIN-SUFFIX,danamon-syariah.co.id
+  - DOMAIN-SUFFIX,adira.co.id
+  
+  # Bank Panin
+  - DOMAIN-SUFFIX,panin.co.id
+  - DOMAIN-SUFFIX,paninbank.co.id
+  - DOMAIN-SUFFIX,paninsekuritas.co.id
+  
+  # Bank DBS/Digibank
+  - DOMAIN-SUFFIX,dbs.com
+  - DOMAIN-SUFFIX,digibank.id
+  - DOMAIN-SUFFIX,dbsbank.com
+  - DOMAIN-SUFFIX,dbs.id
+  
+  # Bank BTPN/Jenius
+  - DOMAIN-SUFFIX,btpn.com
+  - DOMAIN-SUFFIX,jenius.com
+  - DOMAIN-SUFFIX,jenius.id
+  - DOMAIN-SUFFIX,btpnsyariah.com
+  - DOMAIN-SUFFIX,wow.btpn.com
+  
+  # Bank Maybank
+  - DOMAIN-SUFFIX,maybank.co.id
+  - DOMAIN-SUFFIX,maybank2u.co.id
+  - DOMAIN-SUFFIX,maybank.com
+  
+  # HSBC
+  - DOMAIN-SUFFIX,hsbc.co.id
+  - DOMAIN-SUFFIX,hsbc.com
+  
+  # Standard Chartered
+  - DOMAIN-SUFFIX,sc.com
+  - DOMAIN-SUFFIX,standardchartered.co.id
+  
+  # UOB
+  - DOMAIN-SUFFIX,uob.co.id
+  - DOMAIN-SUFFIX,uob.com
+  - DOMAIN-SUFFIX,tmrwbyuob.com
+  
+  # Citibank
+  - DOMAIN-SUFFIX,citibank.co.id
+  - DOMAIN-SUFFIX,citibank.com
+  - DOMAIN-SUFFIX,citi.com
+  
+  # Neo Banks / Digital Banks
+  - DOMAIN-SUFFIX,seabank.co.id
+  - DOMAIN-SUFFIX,seabanking.co.id
+  - DOMAIN-SUFFIX,seagroup.com
+  - DOMAIN-SUFFIX,allo.io
+  - DOMAIN-SUFFIX,allo.bank
+  - DOMAIN-SUFFIX,neo.id
+  - DOMAIN-SUFFIX,neobank.id
+  - DOMAIN-SUFFIX,wowbank.id
+  - DOMAIN-SUFFIX,motionbank.id
+  - DOMAIN-SUFFIX,motionbanking.id
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,linebank.id
+  - DOMAIN-SUFFIX,gojek.com
+  - DOMAIN-SUFFIX,gopay.co.id
+  - DOMAIN-SUFFIX,goto.com
+  - DOMAIN-SUFFIX,gotocompany.com
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-SUFFIX,ovo.id
+  - DOMAIN-SUFFIX,tokopedia.com
+  - DOMAIN-SUFFIX,linkaja.id
+  - DOMAIN-SUFFIX,qris.id
+  
+  # Bank Syariah Indonesia
+  - DOMAIN-SUFFIX,bankbsi.co.id
+  - DOMAIN-SUFFIX,bsimobile.co.id
+  - DOMAIN-SUFFIX,bsi.co.id
+  
+  # Bank Muamalat
+  - DOMAIN-SUFFIX,bankmuamalat.co.id
+  - DOMAIN-SUFFIX,muamalatbank.com
+  
+  # BPD (Regional Development Banks)
+  - DOMAIN-SUFFIX,bankdki.co.id
+  - DOMAIN-SUFFIX,bankbjb.co.id
+  - DOMAIN-SUFFIX,bankjatim.co.id
+  - DOMAIN-SUFFIX,bankjateng.co.id
+  - DOMAIN-SUFFIX,banksumut.co.id
+  - DOMAIN-SUFFIX,banknagari.co.id
+  - DOMAIN-SUFFIX,banklampung.co.id
+  - DOMAIN-SUFFIX,bankaceh.co.id
+  - DOMAIN-SUFFIX,bankkaltimtara.co.id
+  - DOMAIN-SUFFIX,bankntb.co.id
+  - DOMAIN-SUFFIX,banksulutgo.co.id
+  - DOMAIN-SUFFIX,banksulselbar.co.id
+  - DOMAIN-SUFFIX,bankriau.co.id
+  - DOMAIN-SUFFIX,bankkalteng.co.id
+  - DOMAIN-SUFFIX,bankkalbar.co.id
+  - DOMAIN-SUFFIX,bankkalsel.co.id
+  - DOMAIN-SUFFIX,banksulteng.co.id
+  - DOMAIN-SUFFIX,banksultra.co.id
+  - DOMAIN-SUFFIX,bankpapua.co.id
+  - DOMAIN-SUFFIX,bankntt.co.id
+  - DOMAIN-SUFFIX,bankmaluku.co.id
+  - DOMAIN-SUFFIX,banksumbatim.co.id
+  
+  # International Banks
+  - DOMAIN-SUFFIX,jpmorgan.com
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,wellsfargo.com
+  - DOMAIN-SUFFIX,bankofamerica.com
+  - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,deutschebank.com
+  - DOMAIN-SUFFIX,morganstanley.com
+  - DOMAIN-SUFFIX,goldmansachs.com
+  - DOMAIN-SUFFIX,mizuhobank.com
+  - DOMAIN-SUFFIX,smbc.co.jp
+  - DOMAIN-SUFFIX,credit-suisse.com
+  - DOMAIN-SUFFIX,ubs.com
+  - DOMAIN-SUFFIX,bnpparibas.com
+  - DOMAIN-SUFFIX,societegenerale.com
+  - DOMAIN-SUFFIX,unicredit.it
+  - DOMAIN-SUFFIX,db.com
+  - DOMAIN-SUFFIX,commbank.com.au
+  - DOMAIN-SUFFIX,anz.com
+  - DOMAIN-SUFFIX,westpac.com.au
+  - DOMAIN-SUFFIX,nab.com.au
+  - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-SUFFIX,boc.cn
+  - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-SUFFIX,ccb.com
+  - DOMAIN-SUFFIX,bankofchina.com
+  
+  # Payment Processors
+  - DOMAIN-SUFFIX,xendit.co
+  - DOMAIN-SUFFIX,midtrans.com
+  - DOMAIN-SUFFIX,doku.com
+  - DOMAIN-SUFFIX,faspay.co.id
+  - DOMAIN-SUFFIX,nicepay.co.id
+  - DOMAIN-SUFFIX,ipay88.co.id
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,paymentwall.com
+  - DOMAIN-SUFFIX,paysafe.com
+  - DOMAIN-SUFFIX,gopay.co.id
+  - DOMAIN-SUFFIX,ovo.id
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-SUFFIX,linkaja.id
+  - DOMAIN-SUFFIX,shopeepay.co.id
+  
+  # Insurance related to banking
+  - DOMAIN-SUFFIX,axa.co.id
+  - DOMAIN-SUFFIX,allianz.co.id
+  - DOMAIN-SUFFIX,prudential.co.id
+  - DOMAIN-SUFFIX,manulife.co.id
+  - DOMAIN-SUFFIX,sinarmas.co.id
+  - DOMAIN-SUFFIX,lippoinsurance.com
+  - DOMAIN-SUFFIX,bni-life.co.id
+  - DOMAIN-SUFFIX,brilife.co.id
+  - DOMAIN-SUFFIX,bcalife.co.id
+  
+  # Investment & Securities related to banking
+  - DOMAIN-SUFFIX,idx.co.id
+  - DOMAIN-SUFFIX,ksei.co.id
+  - DOMAIN-SUFFIX,bcasekuritas.co.id
+  - DOMAIN-SUFFIX,bnisekuritas.co.id
+  - DOMAIN-SUFFIX,mandirisekuritas.co.id
+  - DOMAIN-SUFFIX,bareksa.com
+  - DOMAIN-SUFFIX,bibit.id
+  - DOMAIN-SUFFIX,ipot.com
+  - DOMAIN-SUFFIX,investree.id
+  - DOMAIN-SUFFIX,stockbit.com
+  - DOMAIN-SUFFIX,indopremier.com
+  - DOMAIN-SUFFIX,mirae-asset.co.id
+  - DOMAIN-SUFFIX,sinarmas-sekuritas.co.id
+  - DOMAIN-SUFFIX,mandiri-investasi.co.id
+  - DOMAIN-SUFFIX,schroder.co.id
+  - DOMAIN-SUFFIX,manulifeim.co.id
+  - DOMAIN-SUFFIX,maybank-am.co.id
+  - DOMAIN-SUFFIX,mncasset.com
+  
+  # General Banking Keywords
+  - DOMAIN-KEYWORD,bank
+  - DOMAIN-KEYWORD,perbank
+  - DOMAIN-KEYWORD,banking
+  - DOMAIN-KEYWORD,mbank
+  - DOMAIN-KEYWORD,ebank
+  - DOMAIN-KEYWORD,digibank
+  - DOMAIN-KEYWORD,digitalbank
+  - DOMAIN-KEYWORD,mobile-bank
+  - DOMAIN-KEYWORD,fintech
+  - DOMAIN-KEYWORD,keuangan
+  - DOMAIN-KEYWORD,finance
+  - DOMAIN-KEYWORD,pembayaran
+  - DOMAIN-KEYWORD,payment
+  - DOMAIN-KEYWORD,dompet
+  - DOMAIN-KEYWORD,wallet
+  - DOMAIN-KEYWORD,e-money
+  - DOMAIN-KEYWORD,emoney
+  - DOMAIN-KEYWORD,e-wallet
+  - DOMAIN-KEYWORD,ewallet
+  - DOMAIN-KEYWORD,tabungan
+  - DOMAIN-KEYWORD,saving
+  - DOMAIN-KEYWORD,kredit
+  - DOMAIN-KEYWORD,credit
+  - DOMAIN-KEYWORD,debit
+  - DOMAIN-KEYWORD,kartu
+  - DOMAIN-KEYWORD,card
+  - DOMAIN-KEYWORD,transfer
+  - DOMAIN-KEYWORD,investasi
+  - DOMAIN-KEYWORD,investment
+  - DOMAIN-KEYWORD,asuransi
+  - DOMAIN-KEYWORD,insurance
+  - DOMAIN-KEYWORD,sekuritas
+  - DOMAIN-KEYWORD,securities
+  - DOMAIN-KEYWORD,reksadana
+  - DOMAIN-KEYWORD,mutual-fund

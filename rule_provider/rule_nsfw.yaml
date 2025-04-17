@@ -1,0 +1,84 @@
+#fadzdigital
+# Rule untuk memblokir konten NSFW (Not Safe For Work)
+payload:
+  # Pornografi
+  - DOMAIN-KEYWORD,porn,REJECT
+  - DOMAIN-KEYWORD,adult,REJECT
+  - DOMAIN-KEYWORD,sex,REJECT
+  - DOMAIN-KEYWORD,xxx,REJECT
+  - DOMAIN-KEYWORD,porno,REJECT
+  - DOMAIN-KEYWORD,hentai,REJECT
+  - DOMAIN-KEYWORD,xvideos,REJECT
+  - DOMAIN-KEYWORD,redtube,REJECT
+  - DOMAIN-KEYWORD,xnxx,REJECT
+  - DOMAIN-KEYWORD,pornhub,REJECT
+  - DOMAIN-KEYWORD,youporn,REJECT
+  - DOMAIN-KEYWORD,tube8,REJECT
+  - DOMAIN-KEYWORD,spankbang,REJECT
+  - DOMAIN-KEYWORD,brazzers,REJECT
+  - DOMAIN-KEYWORD,javhd,REJECT
+  - DOMAIN-KEYWORD,jav,REJECT
+  - DOMAIN-KEYWORD,eporner,REJECT
+  - DOMAIN-KEYWORD,bangbros,REJECT
+  - DOMAIN-KEYWORD,chaturbate,REJECT
+  - DOMAIN-KEYWORD,livejasmin,REJECT
+  - DOMAIN-KEYWORD,stripchat,REJECT
+  - DOMAIN-KEYWORD,bongacams,REJECT
+  
+  # Situs konten dewasa spesifik
+  - DOMAIN-SUFFIX,pornhub.com,REJECT
+  - DOMAIN-SUFFIX,xvideos.com,REJECT
+  - DOMAIN-SUFFIX,xnxx.com,REJECT
+  - DOMAIN-SUFFIX,xhamster.com,REJECT
+  - DOMAIN-SUFFIX,redtube.com,REJECT
+  - DOMAIN-SUFFIX,youporn.com,REJECT
+  - DOMAIN-SUFFIX,tube8.com,REJECT
+  - DOMAIN-SUFFIX,spankbang.com,REJECT
+  - DOMAIN-SUFFIX,brazzers.com,REJECT
+  - DOMAIN-SUFFIX,pornhd.com,REJECT
+  - DOMAIN-SUFFIX,eporner.com,REJECT
+  - DOMAIN-SUFFIX,bangbros.com,REJECT
+  - DOMAIN-SUFFIX,pornmd.com,REJECT
+  - DOMAIN-SUFFIX,thumbzilla.com,REJECT
+  - DOMAIN-SUFFIX,youjizz.com,REJECT
+  - DOMAIN-SUFFIX,cam4.com,REJECT
+  - DOMAIN-SUFFIX,chaturbate.com,REJECT
+  - DOMAIN-SUFFIX,livejasmin.com,REJECT
+  - DOMAIN-SUFFIX,stripchat.com,REJECT
+  - DOMAIN-SUFFIX,bongacams.com,REJECT
+  - DOMAIN-SUFFIX,onlyfans.com,REJECT
+  - DOMAIN-SUFFIX,fancentro.com,REJECT
+  - DOMAIN-SUFFIX,adameve.com,REJECT
+  - DOMAIN-SUFFIX,fleshlight.com,REJECT
+  - DOMAIN-SUFFIX,lovehoney.com,REJECT
+  
+  # CDN untuk konten dewasa
+  - DOMAIN-SUFFIX,phncdn.com,REJECT
+  - DOMAIN-SUFFIX,pornmd.com,REJECT
+  - DOMAIN-SUFFIX,rdtcdn.com,REJECT
+  - DOMAIN-SUFFIX,trafficjunky.net,REJECT
+  - DOMAIN-SUFFIX,contentabc.com,REJECT
+  - DOMAIN-SUFFIX,juicyads.com,REJECT
+  - DOMAIN-SUFFIX,exoclick.com,REJECT
+  - DOMAIN-SUFFIX,exosrv.com,REJECT
+  - DOMAIN-SUFFIX,adskeeper.co.uk,REJECT
+  - DOMAIN-SUFFIX,adtng.com,REJECT
+  
+  # Kata kunci tambahan
+  - DOMAIN-KEYWORD,escort,REJECT
+  - DOMAIN-KEYWORD,nudity,REJECT
+  - DOMAIN-KEYWORD,mature,REJECT
+  - DOMAIN-KEYWORD,camgirl,REJECT
+  - DOMAIN-KEYWORD,fetish,REJECT
+  - DOMAIN-KEYWORD,erotic,REJECT
+  - DOMAIN-KEYWORD,nude,REJECT
+  - DOMAIN-KEYWORD,sextoy,REJECT
+  
+  # IP Range untuk jaringan konten dewasa
+  - IP-CIDR,66.254.112.0/21,REJECT
+  - IP-CIDR,205.185.208.0/20,REJECT
+  - IP-CIDR,216.18.168.0/21,REJECT
+  - IP-CIDR,82.221.106.0/23,REJECT
+  - IP-CIDR,89.248.168.0/21,REJECT
+  - IP-CIDR,78.109.25.0/28,REJECT
+  - IP-CIDR,213.174.135.0/24,REJECT

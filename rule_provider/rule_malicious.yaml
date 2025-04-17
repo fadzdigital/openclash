@@ -1,0 +1,58 @@
+#fadzdigital
+# Rule untuk memblokir domain dan URL berbahaya/malicious
+payload:
+  # Blokir situs phishing
+  - DOMAIN-SUFFIX,malware-domain.com,REJECT
+  - DOMAIN-KEYWORD,phishing,REJECT
+  - DOMAIN-SUFFIX,wannacry,REJECT
+  - DOMAIN-SUFFIX,cryptolocker,REJECT
+  - DOMAIN-SUFFIX,cerber,REJECT
+  - DOMAIN-SUFFIX,locky,REJECT
+  - DOMAIN-SUFFIX,petya,REJECT
+  
+  # Blokir situs scam
+  - DOMAIN-KEYWORD,scam,REJECT
+  - DOMAIN-KEYWORD,fraud,REJECT
+  - DOMAIN-SUFFIX,fakebill,REJECT
+  - DOMAIN-SUFFIX,fakelogin,REJECT
+  - DOMAIN-KEYWORD,fake-login,REJECT
+  
+  # Blokir malware dan virus
+  - DOMAIN-SUFFIX,exploit-db.com,REJECT
+  - DOMAIN-KEYWORD,malware,REJECT
+  - DOMAIN-KEYWORD,spyware,REJECT
+  - DOMAIN-KEYWORD,trojan,REJECT
+  - DOMAIN-KEYWORD,backdoor,REJECT
+  - DOMAIN-KEYWORD,ransomware,REJECT
+  
+  # Blokir tracking berbahaya
+  - DOMAIN-SUFFIX,track.adform.net,REJECT
+  - DOMAIN-SUFFIX,adtech.de,REJECT
+  - DOMAIN-SUFFIX,adtech.fr,REJECT
+  - DOMAIN-SUFFIX,adtech.us,REJECT
+  
+  # Blokir command and control servers
+  - DOMAIN-SUFFIX,botnet-cc.com,REJECT
+  - DOMAIN-KEYWORD,command-control,REJECT
+  
+  # Blokir crypto mining berbahaya
+  - DOMAIN-SUFFIX,coinhive.com,REJECT
+  - DOMAIN-SUFFIX,cryptoloot.pro,REJECT
+  - DOMAIN-SUFFIX,crypto-loot.com,REJECT
+  - DOMAIN-KEYWORD,cryptominer,REJECT
+  - DOMAIN-KEYWORD,coinminer,REJECT
+  
+  # Blokir exploit kits
+  - DOMAIN-KEYWORD,exploit,REJECT
+  - DOMAIN-SUFFIX,blackhole-exploit-kit.com,REJECT
+  - DOMAIN-SUFFIX,angler-exploit.com,REJECT
+  
+  # Blacklist dari reputation services
+  - DOMAIN-SUFFIX,urlvir.com,REJECT
+  - DOMAIN-SUFFIX,malwaredomainlist.com,REJECT
+  - DOMAIN-SUFFIX,malwaredomains.com,REJECT
+  
+  # Aturan tambahan
+  - IP-CIDR,185.130.44.0/24,REJECT
+  - IP-CIDR,192.42.115.0/24,REJECT
+  - IP-CIDR,46.148.112.0/24,REJECT

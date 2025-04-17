@@ -1,0 +1,54 @@
+# fadzdigital
+# Rule Mobile Legends untuk OpenClash
+payload:
+  # Mobile Legends Server
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,youngjoygame.com
+  - DOMAIN-SUFFIX,gcloudcs.com
+  - DOMAIN-SUFFIX,aihelp.net
+  - DOMAIN-SUFFIX,mobilelegends.com.cn
+  - DOMAIN-SUFFIX,moonton.com
+  - DOMAIN-SUFFIX,yuanzhanapp.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,mgsdk.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,evernote.com
+  - DOMAIN-SUFFIX,ml.youngjoygame.com
+  - DOMAIN-SUFFIX,ml.aihelp.net
+  - DOMAIN-SUFFIX,apmplus.volces.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,ml.csoversea.mbgame.moonton.com
+  - DOMAIN-SUFFIX,thirdwx.qlogo.cn
+  - DOMAIN-SUFFIX,ml.csimg.youngjoygame.com
+  # Game Server Pool
+  - DOMAIN-SUFFIX,fcdn.ml.youngjoygame.com
+  - DOMAIN-SUFFIX,gmzdaily.com
+  - DOMAIN-SUFFIX,igs-api.aihelp.net
+  - DOMAIN-SUFFIX,shopeemobile.com
+  - DOMAIN-SUFFIX,ml.wostore.cn
+  # CDN dan API
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,data.flurry.com
+  - DOMAIN-SUFFIX,apm-collector.ase40.ml.youngjoygame.com
+  - DOMAIN-SUFFIX,imgak.gcloudcs.com
+  - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net
+  # Server Indonesia
+  - IP-CIDR,103.5.125.0/24
+  - IP-CIDR,103.5.126.0/24
+  - IP-CIDR,103.148.244.0/24
+  - IP-CIDR,103.253.72.0/24
+  - IP-CIDR,103.240.140.0/24
+  # Server Asia Tenggara
+  - IP-CIDR,43.152.0.0/16
+  - IP-CIDR,128.1.0.0/16
+  - IP-CIDR,139.180.0.0/16
+  - IP-CIDR,103.18.0.0/16
+  # Server Voip
+  - IP-CIDR,164.52.0.0/16
+  - IP-CIDR,203.175.0.0/16
+  - IP-CIDR,203.107.0.0/16
+  - IP-CIDR,202.181.136.0/24
+  # Process
+  - PROCESS-NAME,com.mobile.legends

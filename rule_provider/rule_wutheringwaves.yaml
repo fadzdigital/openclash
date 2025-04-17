@@ -1,0 +1,53 @@
+# fadzdigital
+# Rule Wuthering Waves untuk OpenClash
+payload:
+  # Wuthering Waves Server
+  - DOMAIN-SUFFIX,kurogame.com
+  - DOMAIN-SUFFIX,kgstatic.net
+  - DOMAIN-SUFFIX,kuro.games
+  - DOMAIN-SUFFIX,kurogame.net
+  - DOMAIN-SUFFIX,wutheringwaves.kurogame.net
+  - DOMAIN-SUFFIX,ww-web.kurogame.net
+  - DOMAIN-SUFFIX,ww-web-s.kurogame.net
+  - DOMAIN-SUFFIX,ww-api.kurogame.net
+  - DOMAIN-SUFFIX,ww-static.kurogame.net
+  - DOMAIN-SUFFIX,ww-cdnstatic.kurogame.net
+  - DOMAIN-SUFFIX,ww-media.kurogame.net
+  - DOMAIN-SUFFIX,ww-sdk.kurogame.net
+  - DOMAIN-SUFFIX,ww-launcher.kurogame.net
+  - DOMAIN-SUFFIX,kgbgservice.com
+  - DOMAIN-SUFFIX,bgpnet.com
+  # CDN dan Update
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,ww-launcher-cdn.kurogame.net
+  - DOMAIN-SUFFIX,ww-launcher-cdn-s.kurogame.net
+  - DOMAIN-SUFFIX,ww-download.kurogame.net
+  - DOMAIN-SUFFIX,ww-resources.kurogame.net
+  - DOMAIN-SUFFIX,ww-log.kurogame.net
+  # Login dan Autentikasi
+  - DOMAIN-SUFFIX,ww-sdk-static.kurogame.net
+  - DOMAIN-SUFFIX,ww-sdk-os.kurogame.net
+  - DOMAIN-SUFFIX,ww-sdk-passport.kurogame.net
+  - DOMAIN-SUFFIX,ww-passport.kurogame.net
+  - DOMAIN-SUFFIX,ww-account.kurogame.net
+  - DOMAIN-SUFFIX,account.kurogame.net
+  # Server Game Asia
+  - IP-CIDR,47.74.0.0/16
+  - IP-CIDR,47.254.0.0/16
+  - IP-CIDR,47.88.0.0/16
+  - IP-CIDR,47.89.0.0/16
+  - IP-CIDR,103.150.110.0/24
+  # Server Global
+  - IP-CIDR,8.219.0.0/16
+  - IP-CIDR,47.57.0.0/16
+  - IP-CIDR,47.91.0.0/16
+  - IP-CIDR,47.245.0.0/16
+  # Server China & Other
+  - IP-CIDR,203.107.0.0/16
+  - IP-CIDR,148.153.0.0/16
+  - IP-CIDR,148.113.0.0/16
+  - IP-CIDR,158.247.0.0/16
+  # Process
+  - PROCESS-NAME,com.kurogame.wutheringwaves.global

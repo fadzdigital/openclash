@@ -1,0 +1,157 @@
+# fadzdigital
+payload:
+  # Netflix
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflximg.com
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-KEYWORD,netflix
+  - DOMAIN-KEYWORD,netflixdnstest
+  - DOMAIN-SUFFIX,flxvpn.net
+  - DOMAIN-SUFFIX,netflixinvestor.com
+  - DOMAIN-SUFFIX,netflixstudios.com
+  - DOMAIN-SUFFIX,netflixtechblog.com
+
+  # YouTube
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,youtube-ui.l.google.com
+  - DOMAIN-KEYWORD,youtube
+
+  # Disney+
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
+  - DOMAIN,cdn.registerdisney.go.com
+
+  # Amazon Prime Video
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,primevideo.cc
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideos.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
+  - DOMAIN-SUFFIX,amazonvideodirect.cc
+  - DOMAIN-SUFFIX,atv-ext.amazon.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN-KEYWORD,avoddashs
+
+  # Hulu
+  - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,huluim.com
+  - DOMAIN-SUFFIX,hulustream.com
+  - DOMAIN-SUFFIX,hulu.tv
+  - DOMAIN-SUFFIX,huluad.com
+  - DOMAIN-SUFFIX,huluqa.com
+
+  # HBO
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
+
+  # Spotify
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,spotify.design
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-SUFFIX,spotifycdn.net
+  - DOMAIN-SUFFIX,spotifycharts.com
+  - DOMAIN-SUFFIX,spotifycodes.com
+  - DOMAIN-SUFFIX,spotifyforbrands.com
+  - DOMAIN-SUFFIX,spotifyjobs.com
+  - DOMAIN-KEYWORD,spotify.com
+  - DOMAIN-KEYWORD,spotify.net
+
+  # Apple TV+
+  - DOMAIN-SUFFIX,tv.apple.com
+  - DOMAIN-SUFFIX,originresearch.apple.com
+
+  # Viu
+  - DOMAIN-SUFFIX,viu.com
+  - DOMAIN-SUFFIX,viu.tv
+  - DOMAIN-SUFFIX,viu.now.com
+  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+
+  # iQIYI
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,71.am
+
+  # Indonesian Streaming Services
+  - DOMAIN-SUFFIX,vidio.com
+  - DOMAIN-SUFFIX,visionplus.id
+  - DOMAIN-SUFFIX,mncvision.id
+  - DOMAIN-SUFFIX,mncnow.id
+  - DOMAIN-SUFFIX,rctiplus.com
+  - DOMAIN-SUFFIX,catchplay.com
+  - DOMAIN-SUFFIX,genflix.co.id
+  - DOMAIN-SUFFIX,mola.tv
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,iflix.com
+
+  # Twitch
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,ext-twitch.tv
+
+  # Deezer
+  - DOMAIN-SUFFIX,deezer.com
+  - DOMAIN-SUFFIX,dzcdn.net
+
+  # Paramount+
+  - DOMAIN-SUFFIX,paramountplus.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,pplusstatic.com
+
+  # Dailymotion
+  - DOMAIN-SUFFIX,dailymotion.com
+  - DOMAIN-SUFFIX,dm-event.net
+  - DOMAIN-SUFFIX,dmcdn.net
+
+  # Peacock
+  - DOMAIN-SUFFIX,peacocktv.com
+  - DOMAIN-SUFFIX,peacock.com
+
+  # Discovery+
+  - DOMAIN-SUFFIX,discoveryplus.com
+  - DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,dnitv.com
+
+  # Bilibili
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,hdslb.com

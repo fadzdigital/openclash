@@ -1,0 +1,85 @@
+# fadzdigital
+payload:
+  # Telegram Core
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,telegram.com
+  - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,legra.ph
+  
+  # Telegram API Domains
+  - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,stel.com
+  - DOMAIN-SUFFIX,rlc.app
+  - DOMAIN-SUFFIX,tg.dev
+  
+  # Telegram Web Services
+  - DOMAIN-SUFFIX,web.telegram.org
+  - DOMAIN-SUFFIX,web.telegram.me
+  - DOMAIN-SUFFIX,webk.telegram.org
+  - DOMAIN-SUFFIX,webz.telegram.org
+  - DOMAIN-SUFFIX,k.telegram.org
+  - DOMAIN-SUFFIX,z.telegram.org
+  
+  # Telegram Bots
+  - DOMAIN-SUFFIX,core.telegram.org
+  - DOMAIN-SUFFIX,api.telegram.org
+  - DOMAIN-SUFFIX,my.telegram.org
+  
+  # Telegram Chat Media
+  - DOMAIN-SUFFIX,contest.com
+  - DOMAIN-SUFFIX,translations.telegram.org
+  - DOMAIN-SUFFIX,bugs.telegram.org
+  - DOMAIN-SUFFIX,suggested-gifs.telegram.org
+  
+  # Telegram Proxy/Push Notification
+  - DOMAIN-SUFFIX,aurora-cdn.telegram.org
+  - DOMAIN-SUFFIX,aurora.telegram.org
+  - DOMAIN-SUFFIX,desktop.telegram.org
+  - DOMAIN-SUFFIX,games.telegram.org
+  - DOMAIN-SUFFIX,oauth.telegram.org
+  - DOMAIN-SUFFIX,passport.telegram.org
+  - DOMAIN-SUFFIX,payment-betas.telegram.org
+  - DOMAIN-SUFFIX,payments.telegram.org
+  - DOMAIN-SUFFIX,public.telegram.org
+  - DOMAIN-SUFFIX,quiz.telegram.org
+  - DOMAIN-SUFFIX,promote.telegram.org
+  - DOMAIN-SUFFIX,randomtelegram.com
+  - DOMAIN-SUFFIX,socks.telegram.org
+  - DOMAIN-SUFFIX,comments.app
+  
+  # Telegram CDNs
+  - DOMAIN-SUFFIX,cdn.telegram.org
+  - DOMAIN-SUFFIX,cdn1.telegram.org
+  - DOMAIN-SUFFIX,cdn2.telegram.org
+  - DOMAIN-SUFFIX,cdn3.telegram.org
+  - DOMAIN-SUFFIX,cdn4.telegram.org
+  - DOMAIN-SUFFIX,cdn5.telegram.org
+  - DOMAIN-SUFFIX,cdn-telegram.org
+  
+  # TON (Telegram Open Network)
+  - DOMAIN-SUFFIX,ton.org
+  - DOMAIN-SUFFIX,tonplatform.org
+  - DOMAIN-SUFFIX,toncommunity.org
+  - DOMAIN-SUFFIX,ton-blockchain.org
+  
+  # Telegram Apps Download
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,telegram.app
+  - DOMAIN-SUFFIX,macos.telegram.org
+  - DOMAIN-SUFFIX,ios.telegram.org
+  - DOMAIN-SUFFIX,android.telegram.org
+  
+  # Telegreat (Fork Client)
+  - DOMAIN-SUFFIX,telegreat.org
+  
+  # Telegram Process
+  - PROCESS-NAME,Telegram
+  - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,telegram-desktop

@@ -1,0 +1,78 @@
+# Rule disney untujbopenclash
+# by @fadzdigital
+
+payload:
+  # Disney+
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,disney.com
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net
+  - DOMAIN-SUFFIX,disney.my.sentry.io
+  - DOMAIN-SUFFIX,disney.demdex.net
+  - DOMAIN-SUFFIX,go.com
+  - DOMAIN-SUFFIX,disneyjunior.com
+  - DOMAIN-SUFFIX,disney.io
+  - DOMAIN-SUFFIX,disneyparks.com
+  - DOMAIN-SUFFIX,shopdisney.com
+  - DOMAIN-SUFFIX,disneyarena.com
+  - DOMAIN-SUFFIX,disneynow.com
+  - DOMAIN-SUFFIX,disney.co.jp
+  - DOMAIN-SUFFIX,disney.co.uk
+  - DOMAIN-SUFFIX,disney.co.id
+  - DOMAIN-SUFFIX,disney.in
+  - DOMAIN-SUFFIX,disney-asia.com
+  - DOMAIN-SUFFIX,disneymovieinsiders.com
+  - DOMAIN-SUFFIX,disneyprivacycenter.com
+  - DOMAIN-SUFFIX,disney-discount.com
+  - DOMAIN-SUFFIX,disney.be
+  - DOMAIN-SUFFIX,disney.es
+  - DOMAIN-SUFFIX,disney.de
+  - DOMAIN-SUFFIX,disney.fr
+  - DOMAIN-SUFFIX,disney.sg
+  - DOMAIN-SUFFIX,disney.nl
+  - DOMAIN-SUFFIX,registerdisney.go.com
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,adobedc.net
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,disney.my.sentry.io
+  - DOMAIN-SUFFIX,nr-data.net
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
+  - DOMAIN-SUFFIX,disney.demdex.net
+  - DOMAIN-SUFFIX,disney.tt.omtrdc.net
+  - DOMAIN-SUFFIX,conviva.com
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  
+  # Hotstar (Disney+ Hotstar)
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-SUFFIX,hotstarext.com
+  - DOMAIN-SUFFIX,hsprepack.akamaized.net
+  - DOMAIN-SUFFIX,hotstar.live.cf.cvtops.com
+  - DOMAIN-SUFFIX,img.hotstar.com
+  - DOMAIN-SUFFIX,api.hotstar.com
+  - DOMAIN-SUFFIX,watch.hotstar.com
+  - DOMAIN-SUFFIX,hotstar.onelink.me
+  - DOMAIN-SUFFIX,secure-media.hotstar.com
+  - DOMAIN-SUFFIX,secure-media.hotstarext.com
+  - DOMAIN-SUFFIX,media.hotstar.com
+  - DOMAIN-SUFFIX,account.hotstar.com
+  - DOMAIN-SUFFIX,play.hotstar.com
+  - DOMAIN-SUFFIX,hotstar-cdn.in
+  - DOMAIN-SUFFIX,stars.hotstar.com
+  - DOMAIN-SUFFIX,search.hotstar.com
+  
+  # Disney+ CDN Domains
+  - DOMAIN-KEYWORD,disney
+  - DOMAIN-KEYWORD,disneyplus
+  - DOMAIN-KEYWORD,bamgrid
+  - DOMAIN-KEYWORD,dssott
+  - DOMAIN-KEYWORD,hotstar
+  
+  # Disney Process Names
+  - PROCESS-NAME,com.disney.disneyplus
+  - PROCESS-NAME,com.hotstar.app

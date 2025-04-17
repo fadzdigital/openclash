@@ -1,0 +1,146 @@
+# fadzdigital
+# Rule untuk Port Games
+
+payload:
+  # Games - Steam
+  - PORT,27015-27030,tcp
+  - PORT,27036-27037,tcp
+  - PORT,4380,udp
+  - PORT,3478,udp
+  - PORT,4379-4380,udp
+  - PORT,27000-27031,udp
+  - PORT,27036,udp
+  
+  # Games - Epic Games
+  - PORT,5222,tcp
+  - PORT,5795,tcp
+  - PORT,5222,udp
+  - PORT,5795,udp
+  - PORT,5000-5500,udp
+  
+  # Games - Origin/EA
+  - PORT,3216,tcp
+  - PORT,9960-9969,tcp
+  - PORT,18000,tcp
+  - PORT,18120,tcp
+  - PORT,18060,tcp
+  - PORT,27900,tcp
+  - PORT,28910,tcp
+  - PORT,29900,tcp
+  - PORT,1024-1124,udp
+  - PORT,18000,udp
+  - PORT,29900,udp
+  
+  # Games - Blizzard
+  - PORT,1119,tcp
+  - PORT,3724,tcp
+  - PORT,4000,tcp
+  - PORT,6112-6120,tcp
+  - PORT,80,tcp
+  - PORT,443,tcp
+  - PORT,1119,udp
+  - PORT,3724,udp
+  - PORT,6112-6120,udp
+  
+  # Games - League of Legends
+  - PORT,5000-5500,tcp
+  - PORT,8393-8400,tcp
+  - PORT,2099,tcp
+  - PORT,5223,tcp
+  - PORT,5222,tcp
+  - PORT,8088,tcp
+  
+  # Games - Valorant
+  - PORT,7770-7790,tcp
+  - PORT,8088,tcp
+  - PORT,8393-8400,tcp
+  - PORT,8088,udp
+  - PORT,64990-65010,udp
+  
+  # Games - PUBG
+  - PORT,10012,tcp
+  - PORT,14001,tcp
+  - PORT,17500,tcp
+  - PORT,18081,tcp
+  - PORT,27015-27030,tcp
+  - PORT,10012,udp
+  - PORT,13004,udp
+  - PORT,17000,udp
+  - PORT,17500,udp
+  - PORT,20001-20100,udp
+  
+  # Games - Fortnite
+  - PORT,5795,tcp
+  - PORT,5222,tcp
+  - PORT,443,tcp
+  - PORT,9000-9100,udp
+  - PORT,5222,udp
+  - PORT,5795,udp
+  - PORT,5000-5500,udp
+  
+  # Games - Minecraft
+  - PORT,25565,tcp
+  - PORT,19132-19133,udp
+  
+  # Games - Among Us
+  - PORT,22023,tcp
+  - PORT,22023,udp
+  
+  # Games - Dota 2
+  - PORT,27015-27030,tcp
+  - PORT,27014-27050,udp
+  - PORT,3478,udp
+  - PORT,4379-4380,udp
+  
+  # Games - Call of Duty
+  - PORT,3074,tcp
+  - PORT,3478,tcp
+  - PORT,27014-27050,tcp
+  - PORT,3074,udp
+  - PORT,3478,udp
+  - PORT,4379-4380,udp
+  - PORT,27000-27031,udp
+  - PORT,27036,udp
+  
+  # Games - Mobile Legends
+  - PORT,5000-5221,tcp
+  - PORT,5224-5227,tcp
+  - PORT,5229-5241,tcp
+  - PORT,5243-5500,tcp
+  - PORT,9000-9010,tcp
+  - PORT,30000-30300,tcp
+  - PORT,5000-5221,udp
+  - PORT,5224-5227,udp
+  - PORT,5229-5241,udp
+  - PORT,5243-5500,udp
+  - PORT,9000-9010,udp
+  - PORT,30000-30300,udp
+  
+  # Games - Free Fire
+  - PORT,7006,tcp
+  - PORT,7008,tcp
+  - PORT,10000-10009,tcp
+  - PORT,39698,tcp
+  - PORT,39779,tcp
+  - PORT,10012,tcp
+  - PORT,6006,udp
+  - PORT,6008,udp
+  - PORT,10000-10009,udp
+  - PORT,39000-40000,udp
+  
+  # Games - PUBG Mobile
+  - PORT,10012,tcp
+  - PORT,17500,tcp
+  - PORT,10012,udp
+  - PORT,17500,udp
+  
+  # Games - Genshin Impact
+  - PORT,8080,tcp
+  - PORT,8081,tcp
+  - PORT,42472,tcp
+  - PORT,42473,tcp
+  - PORT,22102,tcp
+  - PORT,8999,tcp
+  - PORT,9000-9010,udp
+  - PORT,22101,udp
+  - PORT,22102,udp

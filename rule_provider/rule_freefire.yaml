@@ -1,0 +1,65 @@
+# fadzdigital
+# Rule Free Fire untuk OpenClash
+payload:
+  # Free Fire Server
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-SUFFIX,garenanow.com
+  - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
+  - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
+  - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net
+  - DOMAIN-SUFFIX,garena.co.id
+  - DOMAIN-SUFFIX,garena.co.th
+  - DOMAIN-SUFFIX,garena.live
+  - DOMAIN-SUFFIX,garena.my
+  - DOMAIN-SUFFIX,garena.ph
+  - DOMAIN-SUFFIX,garena.sg
+  - DOMAIN-SUFFIX,garena.tv
+  - DOMAIN-SUFFIX,garena.tw
+  - DOMAIN-SUFFIX,garena.vn
+  - DOMAIN-SUFFIX,garenanow.com
+  - DOMAIN-SUFFIX,seagroup.com
+  - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
+  - DOMAIN-SUFFIX,codashop.com
+  - DOMAIN-SUFFIX,shopee.co.id
+  - DOMAIN-SUFFIX,shopeemobile.com
+  # Free Fire Game Specific
+  - DOMAIN-SUFFIX,ff.garena.com
+  - DOMAIN-SUFFIX,freefire.game.garena.co.id
+  - DOMAIN-SUFFIX,firecdn.garena.com
+  - DOMAIN-SUFFIX,firecdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,free.fire.garena.trueid.net
+  - DOMAIN-SUFFIX,dlgarenamax-a.akamaihd.net
+  - DOMAIN-SUFFIX,static-api.seagroup.com
+  # Authentication Server
+  - DOMAIN-SUFFIX,auth.garena.com
+  - DOMAIN-SUFFIX,cdn.gxxservice.com
+  - DOMAIN-SUFFIX,iosysupdater.apps.garenanow.com
+  - DOMAIN-SUFFIX,dl.apps.garenanow.com
+  # CDN dan Event
+  - DOMAIN-SUFFIX,dlapisgarenafreefire.akamaized.net
+  - DOMAIN-SUFFIX,freefiremobile-a.akamaihd.net
+  - DOMAIN-SUFFIX,gcloud.download.garena.com
+  # Server IP
+  - IP-CIDR,128.1.87.0/24
+  - IP-CIDR,128.1.35.0/24
+  - IP-CIDR,43.252.184.0/24
+  - IP-CIDR,43.252.185.0/24
+  - IP-CIDR,103.247.205.0/24
+  - IP-CIDR,103.247.206.0/24
+  # Indonesia Server
+  - IP-CIDR,103.10.124.0/24
+  - IP-CIDR,103.10.125.0/24
+  - IP-CIDR,103.27.236.0/24
+  - IP-CIDR,103.27.237.0/24
+  # Singapore & SEA Server
+  - IP-CIDR,45.59.156.0/24
+  - IP-CIDR,45.59.157.0/24
+  - IP-CIDR,146.88.0.0/16
+  - IP-CIDR,103.193.266.0/24
+  # Voice Chat
+  - IP-CIDR,159.122.0.0/16
+  - IP-CIDR,169.62.0.0/16
+  - IP-CIDR,161.202.0.0/16
+  # Process
+  - PROCESS-NAME,com.dts.freefireth
+  - PROCESS-NAME,com.dts.freefiremax

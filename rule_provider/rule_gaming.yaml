@@ -1,0 +1,128 @@
+# Rule Gaming untuk OpenClash
+# by @fadzdigital
+payload:
+  # Steam
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,steamdb.info
+  - DOMAIN-SUFFIX,steamstat.us
+  
+  # Mobile Games
+  ## PUBG Mobile
+  - DOMAIN-SUFFIX,pubgmobile.com
+  - DOMAIN-SUFFIX,igamecj.com
+  - DOMAIN,file-igamecj.akamaized.net
+  - IP-CIDR,45.40.220.0/22,no-resolve
+  - IP-CIDR,150.109.0.0/16,no-resolve
+  - IP-CIDR,49.51.0.0/16,no-resolve
+  
+  ## Mobile Legends
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,youngjoygame.com
+  - DOMAIN-SUFFIX,yuanzhanapp.com
+  - DOMAIN-SUFFIX,ml.youngjoygame.com
+  - DOMAIN-SUFFIX,akmcdn.ml.youngjoygame.com
+  - DOMAIN-SUFFIX,cdn.ml.youngjoygame.com
+  - DOMAIN-SUFFIX,cdn.mobilelegends.com
+  
+  ## Garena Free Fire
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-SUFFIX,garenanow.com
+  - DOMAIN-SUFFIX,seagroup.com
+  - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
+  - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
+  - DOMAIN-SUFFIX,dlgarenanow-a.akamaihd.net
+  - DOMAIN-SUFFIX,garena.co.id
+  - DOMAIN-SUFFIX,garena.co.th
+  - DOMAIN-SUFFIX,garena.live
+  - DOMAIN-SUFFIX,garena.my
+  - DOMAIN-SUFFIX,garena.ph
+  - DOMAIN-SUFFIX,garena.sg
+  - DOMAIN-SUFFIX,garena.tv
+  - DOMAIN-SUFFIX,garena.tw
+  - DOMAIN-SUFFIX,garena.vn
+  
+  ## Call of Duty Mobile
+  - DOMAIN-SUFFIX,callofduty.com
+  - DOMAIN-SUFFIX,codmobile.garena.com
+  - DOMAIN-SUFFIX,codm.activision.com
+  - DOMAIN-SUFFIX,cod-cdn.activision.com
+  - DOMAIN-SUFFIX,callofduty.com.akadns.net
+  - DOMAIN-SUFFIX,callofdutymobile.com
+  
+  ## Genshin Impact
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-SUFFIX,mihayo.com
+  - DOMAIN-SUFFIX,hoyolab.com
+  - DOMAIN-SUFFIX,hoyoverse.com
+  - DOMAIN-SUFFIX,yuanshen.com
+  - DOMAIN-SUFFIX,genshinimpact.com
+  - DOMAIN-SUFFIX,honkaiimpact3.com
+  
+  # Gaming Platforms
+  ## Valve
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,steamlabs.com
+  - DOMAIN-SUFFIX,dota2.com
+  - DOMAIN-SUFFIX,counter-strike.net
+  - DOMAIN-SUFFIX,teamfortress.com
+  
+  ## Tencent Games
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencentgames.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wegame.com
+  - DOMAIN-SUFFIX,weiyun.com
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,qq.com
+  
+  # Netease Games
+  - DOMAIN-SUFFIX,netease.com
+  - DOMAIN-SUFFIX,126.net
+  - DOMAIN-SUFFIX,163.com
+  - DOMAIN-SUFFIX,126.com
+  - DOMAIN-SUFFIX,youdao.com
+  - DOMAIN-SUFFIX,ntes53.netease.com
+  
+  # Gaming Voice Chat
+  - DOMAIN-SUFFIX,teamspeak.com
+  - DOMAIN-SUFFIX,mumble.info
+  - DOMAIN-SUFFIX,guilded.gg
+  
+  # Gaming-specific CDNs
+  - DOMAIN-SUFFIX,xboxcdn.com
+  - DOMAIN-SUFFIX,playstation-cdn.net
+  - DOMAIN-SUFFIX,steamcdn.io
+  
+  # Game Streaming
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,ext-twitch.tv
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,twitchsvc.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  
+  # Game Tools & Mods
+  - DOMAIN-SUFFIX,moddb.com
+  - DOMAIN-SUFFIX,gamebanana.com
+  - DOMAIN-SUFFIX,overwolf.com
+  - DOMAIN-SUFFIX,curse.com
+  
+  # PROCESS-NAME untuk aplikasi game populer
+  - PROCESS-NAME,LeagueClient
+  - PROCESS-NAME,Dota2
+  - PROCESS-NAME,CSGO
+  - PROCESS-NAME,GenshinImpact
+  - PROCESS-NAME,VALORANT
+  - PROCESS-NAME,Fortnite
+  - PROCESS-NAME,Minecraft
+  - PROCESS-NAME,GameBar

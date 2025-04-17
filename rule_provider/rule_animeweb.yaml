@@ -1,0 +1,104 @@
+# fadzdigital
+payload:
+  # Anime Streaming Sites
+  - DOMAIN-SUFFIX,4anime.gg
+  - DOMAIN-SUFFIX,9anime.to
+  - DOMAIN-SUFFIX,9anime.ws
+  - DOMAIN-SUFFIX,9anime.id
+  - DOMAIN-SUFFIX,9anime.vc
+  - DOMAIN-SUFFIX,9anime.ru
+  - DOMAIN-SUFFIX,aniwatch.to
+  - DOMAIN-SUFFIX,animeflv.net
+  - DOMAIN-SUFFIX,animedao.to
+  - DOMAIN-SUFFIX,animefreak.tv
+  - DOMAIN-SUFFIX,animehub.ac
+  - DOMAIN-SUFFIX,animekisa.tv
+  - DOMAIN-SUFFIX,animelab.com
+  - DOMAIN-SUFFIX,animepahe.com
+  - DOMAIN-SUFFIX,animeultima.to
+  - DOMAIN-SUFFIX,animixplay.to
+  - DOMAIN-SUFFIX,chia-anime.com
+  - DOMAIN-SUFFIX,crunchyroll.com
+  - DOMAIN-SUFFIX,funimation.com
+  - DOMAIN-SUFFIX,gogoanime.io
+  - DOMAIN-SUFFIX,gogoanime.tv
+  - DOMAIN-SUFFIX,gogoanimes.co
+  - DOMAIN-SUFFIX,gogoplay.io
+  - DOMAIN-SUFFIX,hidive.com
+  - DOMAIN-SUFFIX,hentaihaven.xxx
+  - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,kissanime.ru
+  - DOMAIN-SUFFIX,kissanime.to
+  - DOMAIN-SUFFIX,kitsu.io
+  - DOMAIN-SUFFIX,masterani.me
+  - DOMAIN-SUFFIX,myanimelist.net
+  - DOMAIN-SUFFIX,twist.moe
+  - DOMAIN-SUFFIX,vrv.co
+  - DOMAIN-SUFFIX,wcostream.com
+  - DOMAIN-SUFFIX,wonderfulsubs.com
+  - DOMAIN-SUFFIX,zoro.to
+  - DOMAIN-SUFFIX,kuramanime.com
+  - DOMAIN-SUFFIX,animeindo.co
+  - DOMAIN-SUFFIX,anoboy.media
+  - DOMAIN-SUFFIX,animekompi.web.id
+  - DOMAIN-SUFFIX,neonime.co
+  - DOMAIN-SUFFIX,oploverz.in
+  - DOMAIN-SUFFIX,samehadaku.vip
+  - DOMAIN-SUFFIX,otakudesu.moe
+  - DOMAIN-SUFFIX,nanime.in
+  - DOMAIN-SUFFIX,moenime.web.id
+  - DOMAIN-SUFFIX,nekopoi.care
+  - DOMAIN-SUFFIX,kusonime.com
+  
+  # Anime CDN & Resources
+  - DOMAIN-SUFFIX,anicdn.com
+  - DOMAIN-SUFFIX,animecdn.com
+  - DOMAIN-SUFFIX,cdnjs.cloudflare.com
+  - DOMAIN-SUFFIX,cdn.animeapi.com
+  - DOMAIN-SUFFIX,animefever.tv
+  
+  # Anime Community
+  - DOMAIN-SUFFIX,anilist.co
+  - DOMAIN-SUFFIX,anime-planet.com
+  - DOMAIN-SUFFIX,anime-sharing.com
+  - DOMAIN-SUFFIX,animenewsnetwork.com
+  - DOMAIN-SUFFIX,animethemes.moe
+  - DOMAIN-SUFFIX,mangadex.org
+  - DOMAIN-SUFFIX,mangafox.la
+  - DOMAIN-SUFFIX,mangahere.cc
+  - DOMAIN-SUFFIX,mangakakalot.com
+  - DOMAIN-SUFFIX,manganelo.com
+  - DOMAIN-SUFFIX,mangaowl.net
+  - DOMAIN-SUFFIX,mangapanda.com
+  - DOMAIN-SUFFIX,mangapark.net
+  - DOMAIN-SUFFIX,mangareader.net
+  - DOMAIN-SUFFIX,mangasee123.com
+  - DOMAIN-SUFFIX,mangatown.com
+  - DOMAIN-SUFFIX,viz.com
+  
+  # Video Players & CDNs
+  - DOMAIN-SUFFIX,vidstreaming.io
+  - DOMAIN-SUFFIX,hydrax.net
+  - DOMAIN-SUFFIX,gcloud.live
+  - DOMAIN-SUFFIX,vidcdn.pro
+  - DOMAIN-SUFFIX,fembed.com
+  - DOMAIN-SUFFIX,feurl.com
+  - DOMAIN-SUFFIX,embedsito.com
+  - DOMAIN-SUFFIX,mixdrop.co
+  - DOMAIN-SUFFIX,mp4upload.com
+  - DOMAIN-SUFFIX,streamtape.com
+  - DOMAIN-SUFFIX,dood.to
+  - DOMAIN-SUFFIX,sbplay.org
+  - DOMAIN-SUFFIX,vidoza.net
+  - DOMAIN-SUFFIX,streamani.net
+  - DOMAIN-SUFFIX,streamani.io
+  - DOMAIN-SUFFIX,sendvid.com
+  - DOMAIN-SUFFIX,streamable.com
+
+  # Specific CDNs Used by Anime Sites
+  - DOMAIN-SUFFIX,cdn.discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
+  - DOMAIN-SUFFIX,imgur.com
+  - DOMAIN-SUFFIX,pinimg.com
+  - DOMAIN-SUFFIX,tenor.com
+  - DOMAIN-SUFFIX,giphy.com

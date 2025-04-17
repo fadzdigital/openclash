@@ -1,0 +1,54 @@
+# fadzdigital
+# Rule Genshin Impact untuk OpenClash
+payload:
+  # Genshin Impact Server
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-SUFFIX,hoyoverse.com
+  - DOMAIN-SUFFIX,yuanshen.com
+  - DOMAIN-SUFFIX,miyoushe.com
+  - DOMAIN-SUFFIX,hoyolab.com
+  - DOMAIN-SUFFIX,hoyo.link
+  - DOMAIN-SUFFIX,hoyoverse.net
+  - DOMAIN-SUFFIX,mihoyo.net
+  - DOMAIN-SUFFIX,mihoyogame.cn
+  - DOMAIN-SUFFIX,hmctsimg.com
+  - DOMAIN-SUFFIX,mihoyogift.com
+  - DOMAIN-SUFFIX,gibs.hoyoverse.com
+  - DOMAIN-SUFFIX,minor-api.mihoyo.com
+  - DOMAIN-SUFFIX,log-upload-os.mihoyo.com
+  - DOMAIN-SUFFIX,dispatchosglobal.yuanshen.com
+  - DOMAIN-SUFFIX,osusadispatch.yuanshen.com
+  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+  - DOMAIN-SUFFIX,overseauspider.yuanshen.com
+  - DOMAIN-SUFFIX,api-os-takumi.mihoyo.com
+  - DOMAIN-SUFFIX,api-takumi.mihoyo.com
+  - DOMAIN-SUFFIX,hk4e-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-api-os-static.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-sdk-os.hoyoverse.com
+  - DOMAIN-SUFFIX,sgpub-api.hoyoverse.com
+  - DOMAIN-SUFFIX,webstatic.hoyoverse.com
+  # CDN Genshin Impact
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  # Authentication
+  - DOMAIN-SUFFIX,hoyoverse.com.sa
+  - DOMAIN-SUFFIX,account.hoyoverse.com
+  - DOMAIN-SUFFIX,api-account-os.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-sdk-os.hoyoverse.com
+  - DOMAIN-SUFFIX,sg-hk4e-api.hoyoverse.com
+  - DOMAIN-SUFFIX,sdk-os-static.hoyoverse.com
+  - DOMAIN-SUFFIX,webstatic-sea.hoyoverse.com
+  # Download & Update
+  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+  - DOMAIN-SUFFIX,patcher-public-cdn-sea.hoyoverse.com
+  - DOMAIN-SUFFIX,sdk-os-staticcda.hoyoverse.com
+  # Ping Server
+  - IP-CIDR,47.91.0.0/16
+  - IP-CIDR,47.252.0.0/16
+  - IP-CIDR,8.209.0.0/16
+  - IP-CIDR,45.40.0.0/16
+  - IP-CIDR,207.148.0.0/16
+  - IP-CIDR,172.83.0.0/16

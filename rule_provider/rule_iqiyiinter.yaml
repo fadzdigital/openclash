@@ -1,0 +1,81 @@
+#fadzdigital
+# Rule iQIYI International untuk OpenClash
+payload:
+  # iQIYI International Main Domains
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,iqiyi.international
+  - DOMAIN-SUFFIX,iqiyi-international.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,inter.iqiyi.com
+  - DOMAIN-SUFFIX,intl.iqiyi.com
+  
+  # iQIYI International API and Services
+  - DOMAIN,intl-rcd.iqiyi.com
+  - DOMAIN,intl-subscription.iqiyi.com
+  - DOMAIN,intl-cmonitor.iqiyi.com
+  - DOMAIN,intl-passport.iqiyi.com
+  - DOMAIN,intl-sns.iqiyi.com
+  - DOMAIN,intl-im-hist.iqiyi.com
+  - DOMAIN,intl-act.vip.iqiyi.com
+  - DOMAIN,intl-i.vip.iqiyi.com
+  - DOMAIN,intl.policy.iqiyi.com
+  - DOMAIN,du-feige-intl.iqiyi.com
+  - DOMAIN,msg-intl.qy.net
+  
+  # iQIYI International CDN
+  - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
+  - DOMAIN,akmcdnoversea-hk.inter.iqiyi.com
+  - DOMAIN,akmcdnoversea-jp.inter.iqiyi.com
+  - DOMAIN,akmcdnoversea-sg.inter.iqiyi.com
+  - DOMAIN,akmcdnoversea-us.inter.iqiyi.com
+  - DOMAIN,akmcdnoversea-uk.inter.iqiyi.com
+  - DOMAIN,akmcdnoversea-in.inter.iqiyi.com
+  
+  # iQIYI International Video
+  - DOMAIN,cache-video.iq.com
+  - DOMAIN,cache.video.iqiyi.com
+  - DOMAIN,stream.iqiyi.com
+  - DOMAIN,stream-hk.iqiyi.com
+  - DOMAIN,stream-tw.iqiyi.com
+  - DOMAIN,stream-jp.iqiyi.com
+  - DOMAIN,stream-sg.iqiyi.com
+  - DOMAIN,stream-us.iqiyi.com
+  
+  # iQIYI International Authentication
+  - DOMAIN,api-intl.iqiyi.com
+  - DOMAIN,api-intl.iq.com
+  - DOMAIN,subscription-api-intl.iqiyi.com
+  - DOMAIN,subscription-api-intl.iq.com
+  - DOMAIN,passport-intl.iqiyi.com
+  - DOMAIN,passport-intl.iq.com
+  
+  # iQIYI International Analytics
+  - DOMAIN,data-intl.iqiyi.com
+  - DOMAIN,data-intl.iq.com
+  - DOMAIN,metrics-intl.iqiyi.com
+  - DOMAIN,metrics-intl.iq.com
+  
+  # iQIYI International Region-Specific
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,iqiyi.com.sg
+  - DOMAIN-SUFFIX,iqiyi.my
+  - DOMAIN-SUFFIX,iqiyi.ph
+  - DOMAIN-SUFFIX,iqiyi.th
+  - DOMAIN-SUFFIX,iqiyi.hk
+  - DOMAIN-SUFFIX,iqiyi.tw
+  - DOMAIN-SUFFIX,iqiyi.jp
+  - DOMAIN-SUFFIX,iqiyi.kr
+  
+  # iQIYI International IP Ranges
+  - IP-CIDR,23.211.15.0/24
+  - IP-CIDR,23.219.172.0/24
+  - IP-CIDR,104.85.165.0/24
+  - IP-CIDR,110.238.107.0/24
+  - IP-CIDR,159.138.102.0/24
+  - IP-CIDR,203.74.95.0/24
+  - IP-CIDR,203.80.97.0/24
+  - IP-CIDR,210.201.32.0/24
+  - IP-CIDR,47.74.0.0/16
+  - IP-CIDR,47.75.0.0/16
+  - IP-CIDR,47.76.0.0/16
+  - IP-CIDR,47.89.0.0/16

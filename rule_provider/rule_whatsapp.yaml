@@ -1,0 +1,56 @@
+#fadzdigital
+# Rule untuk WhatsApp
+payload:
+  # WhatsApp Domains
+  - DOMAIN-SUFFIX,whatsapp.com,WhatsApp
+  - DOMAIN-SUFFIX,whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,web.whatsapp.com,WhatsApp
+  - DOMAIN-SUFFIX,www.whatsapp.com,WhatsApp
+  - DOMAIN-SUFFIX,fna.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,g.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,media-mia3-1.cdn.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,static.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,mmg.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,media-lax3-1.cdn.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,media-lax3-2.cdn.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,media-frx5-1.cdn.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,privatestats.whatsapp.net,WhatsApp
+  - DOMAIN-SUFFIX,scontent.whatsapp.net,WhatsApp
+  
+  # WhatsApp Business
+  - DOMAIN-SUFFIX,business.whatsapp.com,WhatsApp
+  - DOMAIN-SUFFIX,whatsappbusiness.com,WhatsApp
+  
+  # WhatsApp Voice/Video Call
+  - DOMAIN-SUFFIX,kurento.org,WhatsApp
+  - DOMAIN-SUFFIX,wa.me,WhatsApp
+  - DOMAIN-SUFFIX,wa-chat.com,WhatsApp
+  
+  # WhatsApp Meta Integration
+  - DOMAIN-SUFFIX,wa.spark.meta.com,WhatsApp
+  - DOMAIN-SUFFIX,whatsapp-cdn-shv-01-kul1.fbcdn.net,WhatsApp
+  - DOMAIN-SUFFIX,chat.cdn.whatsapp.net,WhatsApp
+  
+  # WhatsApp IP Ranges
+  - IP-CIDR,31.13.64.0/18,WhatsApp
+  - IP-CIDR,50.22.198.204/30,WhatsApp
+  - IP-CIDR,157.240.0.0/16,WhatsApp
+  - IP-CIDR,185.60.216.0/22,WhatsApp
+  - IP-CIDR,185.60.218.0/24,WhatsApp
+  - IP-CIDR,66.220.144.0/20,WhatsApp
+  - IP-CIDR,69.63.176.0/20,WhatsApp
+  - IP-CIDR,69.171.224.0/19,WhatsApp
+  - IP-CIDR,74.119.76.0/22,WhatsApp
+  - IP-CIDR,173.252.64.0/18,WhatsApp
+  - IP-CIDR,179.60.192.0/22,WhatsApp
+  - IP-CIDR,184.173.128.0/17,WhatsApp
+  
+  # WhatsApp UDP Ports
+  - DST-PORT,3478,WhatsApp
+  - DST-PORT,4244,WhatsApp
+  - DST-PORT,5222,WhatsApp
+  - DST-PORT,5223,WhatsApp
+  - DST-PORT,5242,WhatsApp
+  - DST-PORT,5349,WhatsApp
+  - DST-PORT,50318,WhatsApp
+  - DST-PORT,59234,WhatsApp

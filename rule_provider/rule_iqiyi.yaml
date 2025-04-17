@@ -1,0 +1,74 @@
+#fadzdigital
+# Rule iQIYI untuk OpenClash
+payload:
+  # iQIYI Main Domain
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,qiyi.com
+  - DOMAIN-SUFFIX,qiyipic.com
+  - DOMAIN-SUFFIX,iq.com
+  
+  # iQIYI CDN
+  - DOMAIN-SUFFIX,71edge.com
+  - DOMAIN-SUFFIX,71edge.net
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,qiyi.domain
+  - DOMAIN-SUFFIX,qiyipic.com
+  
+  # iQIYI Platform
+  - DOMAIN-SUFFIX,pps.tv
+  - DOMAIN-SUFFIX,ppstream.com
+  - DOMAIN-SUFFIX,iqiyi.com.cn
+  - DOMAIN-SUFFIX,qiyi.com.cn
+  
+  # iQIYI Analytics and Services
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,iqiyi-international.com
+  - DOMAIN-SUFFIX,inter.iqiyi.com
+  - DOMAIN-SUFFIX,intl.iqiyi.com
+  - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
+  - DOMAIN-SUFFIX,intl-subscription.iqiyi.com
+  - DOMAIN-SUFFIX,meta.video.qiyi.com
+  - DOMAIN-SUFFIX,data.video.qiyi.com
+  - DOMAIN-SUFFIX,apisg.iqiyi.com
+  
+  # iQIYI API
+  - DOMAIN,api.iqiyi.com
+  - DOMAIN,cache.video.qiyi.com
+  - DOMAIN,cache-video.iq.com
+  - DOMAIN,iface.iqiyi.com
+  - DOMAIN,iface2.iqiyi.com
+  - DOMAIN,ifacelog.iqiyi.com
+  - DOMAIN,mbdlog.iqiyi.com
+  - DOMAIN,msg.71.am
+  - DOMAIN,msg.qy.net
+  - DOMAIN,nl-rcd.iqiyi.com
+  - DOMAIN,static.rcd.iqiyi.com
+  
+  # iQIYI Video Distribution
+  - DOMAIN,data.video.iqiyi.com
+  - DOMAIN,stc-nl.iqiyi.com
+  - DOMAIN,t7z.cupid.iqiyi.com
+  - DOMAIN,policy.video.iqiyi.com
+  - DOMAIN,stream.iqiyi.com
+  
+  # iQIYI Authentication
+  - DOMAIN,passport.iqiyi.com
+  - DOMAIN,qosp.iqiyi.com
+  - DOMAIN,paopao.iqiyi.com
+  - DOMAIN,sns.iqiyi.com
+  
+  # iQIYI IP Ranges
+  - IP-CIDR,101.227.0.0/16
+  - IP-CIDR,101.224.0.0/13
+  - IP-CIDR,119.176.0.0/12
+  - IP-CIDR,103.44.56.0/22
+  - IP-CIDR,118.26.120.0/24
+  - IP-CIDR,118.26.32.0/19
+  - IP-CIDR,223.2.0.0/15
+  - IP-CIDR,101.227.200.11/32
+  - IP-CIDR,101.227.200.28/32
+  - IP-CIDR,119.176.153.26/32
+  - IP-CIDR,119.176.153.34/32
+  - IP-CIDR,119.176.153.46/32
+  - IP-CIDR,220.115.251.25/32

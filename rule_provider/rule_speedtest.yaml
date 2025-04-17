@@ -1,0 +1,79 @@
+# Rules speedtest untuk openclash
+# by @fadzdigital
+
+payload:
+  # Speedtest by Ookla
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speedtestcustom.com
+  - DOMAIN-SUFFIX,speedcheck.org
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,ookla
+  
+  # Netflix Fast
+  - DOMAIN-SUFFIX,fast.com
+  
+  # Measurement Lab (M-Lab)
+  - DOMAIN-SUFFIX,measurementlab.net
+  - DOMAIN-SUFFIX,mlab.nz
+  - DOMAIN-SUFFIX,mlab.ch
+  - DOMAIN-SUFFIX,mlab.org
+  
+  # Others
+  - DOMAIN-SUFFIX,speedsmart.net
+  - DOMAIN-SUFFIX,speedof.me
+  - DOMAIN-SUFFIX,nperf.com
+  - DOMAIN-SUFFIX,broadbandspeedchecker.co.uk
+  - DOMAIN-SUFFIX,speedtest.io
+  - DOMAIN-SUFFIX,internet-speed.org
+  - DOMAIN-SUFFIX,speedmeter.org
+  - DOMAIN-SUFFIX,testmy.net
+  - DOMAIN-SUFFIX,internetspeedtest.co.uk
+  - DOMAIN-SUFFIX,myjittertest.com
+  - DOMAIN-SUFFIX,bandwidthplace.com
+  - DOMAIN-SUFFIX,internetspeedtest.net
+  - DOMAIN-SUFFIX,ininternetspeedtest.info
+  - DOMAIN-SUFFIX,speedtest.co.uk
+  - DOMAIN-SUFFIX,myspeed.io
+  - DOMAIN-SUFFIX,speedcheck.info
+  - DOMAIN-SUFFIX,speedsmart.net
+  - DOMAIN-SUFFIX,speedtestmaster.com
+  - DOMAIN-SUFFIX,opensignal.com
+  - DOMAIN-SUFFIX,speedtestbrasil.info
+  - DOMAIN-SUFFIX,speedtestchina.net
+  - DOMAIN-SUFFIX,speedtestfree.net
+  - DOMAIN-SUFFIX,speedtestgo.com
+  - DOMAIN-SUFFIX,speedtestmaster.com
+  - DOMAIN-SUFFIX,speedtestromania.ro
+  - DOMAIN-SUFFIX,speedtesttool.com
+  - DOMAIN-SUFFIX,speedtest-indonesia.com
+  - DOMAIN-SUFFIX,speedtest-isp.com
+  - DOMAIN-SUFFIX,speedtest-jp.com
+  - DOMAIN-SUFFIX,speedtest-kr.com
+  - DOMAIN-SUFFIX,speedtest-ph.com
+  - DOMAIN-SUFFIX,speedtest-sg.com
+  - DOMAIN-SUFFIX,speedtest-tw.com
+  - DOMAIN-SUFFIX,speedtest-vn.com
+  - DOMAIN-SUFFIX,speedtestonline.org
+  - DOMAIN-SUFFIX,speedtestx.com
+
+  # Fast.com (Netflix)
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflxso.net
+  
+  # Indonesian ISP Speed Test
+  - DOMAIN-SUFFIX,speedtest.indosat.com
+  - DOMAIN-SUFFIX,speedtest.telkom.net.id
+  - DOMAIN-SUFFIX,speedtest.xl.co.id
+  - DOMAIN-SUFFIX,speedtest.smartfren.com
+  - DOMAIN-SUFFIX,speedtest.tri.co.id
+  - DOMAIN-SUFFIX,speedtest.biznet.id
+  - DOMAIN-SUFFIX,speedtest.firstmedia.com
+  - DOMAIN-SUFFIX,speedtest.myrepublic.co.id
+  - DOMAIN-SUFFIX,speedtest.cbn.net.id
+  - DOMAIN-SUFFIX,speedtest.inet.net.id
+  - DOMAIN-SUFFIX,speedtest.link.net.id
+  - DOMAIN-SUFFIX,speedtest.moratelindo.co.id

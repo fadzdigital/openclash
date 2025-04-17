@@ -1,0 +1,80 @@
+#fadzdigital
+# Rule untuk platform Metaverse
+payload:
+  # Meta/Facebook
+  - DOMAIN-SUFFIX,meta.com,Metaverse
+  - DOMAIN-SUFFIX,meta.org,Metaverse
+  - DOMAIN-SUFFIX,facebook.com,Metaverse
+  - DOMAIN-SUFFIX,fb.com,Metaverse
+  - DOMAIN-SUFFIX,fbcdn.net,Metaverse
+  - DOMAIN-SUFFIX,instagram.com,Metaverse
+  - DOMAIN-SUFFIX,oculus.com,Metaverse
+  - DOMAIN-SUFFIX,oculuscdn.com,Metaverse
+  - DOMAIN-SUFFIX,horizon.meta.com,Metaverse
+  - DOMAIN-SUFFIX,about.meta.com,Metaverse
+  - DOMAIN-SUFFIX,spark.meta.com,Metaverse
+  - DOMAIN-SUFFIX,horizon-worlds.com,Metaverse
+  
+  # Roblox
+  - DOMAIN-SUFFIX,roblox.com,Metaverse
+  - DOMAIN-SUFFIX,rbxcdn.com,Metaverse
+  - DOMAIN-SUFFIX,robloxcdn.com,Metaverse
+  - DOMAIN-SUFFIX,rbxtrk.com,Metaverse
+  - DOMAIN-SUFFIX,roblox.plus,Metaverse
+  
+  # Decentraland
+  - DOMAIN-SUFFIX,decentraland.org,Metaverse
+  - DOMAIN-SUFFIX,decentraland.io,Metaverse
+  - DOMAIN-SUFFIX,dcl.gg,Metaverse
+  - DOMAIN-SUFFIX,catalyst.decentraland.org,Metaverse
+  
+  # The Sandbox
+  - DOMAIN-SUFFIX,sandbox.game,Metaverse
+  - DOMAIN-SUFFIX,thesandbox.io,Metaverse
+  - DOMAIN-SUFFIX,sandboxgame.com,Metaverse
+  
+  # Axie Infinity
+  - DOMAIN-SUFFIX,axieinfinity.com,Metaverse
+  - DOMAIN-SUFFIX,skymavis.com,Metaverse
+  - DOMAIN-SUFFIX,ronin.rest,Metaverse
+  - DOMAIN-SUFFIX,roninchain.com,Metaverse
+  
+  # Microsoft/Minecraft
+  - DOMAIN-SUFFIX,minecraft.net,Metaverse
+  - DOMAIN-SUFFIX,mojang.com,Metaverse
+  - DOMAIN-SUFFIX,minecraftservices.com,Metaverse
+  
+  # Epic Games / Fortnite
+  - DOMAIN-SUFFIX,epicgames.com,Metaverse
+  - DOMAIN-SUFFIX,fortnite.com,Metaverse
+  - DOMAIN-SUFFIX,unrealengine.com,Metaverse
+  - DOMAIN-SUFFIX,epiccdn.net,Metaverse
+  
+  # NVIDIA Omniverse
+  - DOMAIN-SUFFIX,omniverse.nvidia.com,Metaverse
+  - DOMAIN-SUFFIX,ngc.nvidia.com,Metaverse
+  
+  # VRChat
+  - DOMAIN-SUFFIX,vrchat.com,Metaverse
+  - DOMAIN-SUFFIX,vrchat.net,Metaverse
+  
+  # Crypto/NFT Related Services
+  - DOMAIN-SUFFIX,opensea.io,Metaverse
+  - DOMAIN-SUFFIX,metamask.io,Metaverse
+  - DOMAIN-SUFFIX,rarible.com,Metaverse
+  - DOMAIN-SUFFIX,niftygateway.com,Metaverse
+  
+  # Metaverse Development Platforms
+  - DOMAIN-SUFFIX,unity3d.com,Metaverse
+  - DOMAIN-SUFFIX,unity.com,Metaverse
+  - DOMAIN-SUFFIX,unreal.com,Metaverse
+  
+  # IP Ranges for Metaverse Services
+  - IP-CIDR,13.107.246.0/24,Metaverse
+  - IP-CIDR,31.13.64.0/18,Metaverse
+  - IP-CIDR,45.57.0.0/17,Metaverse
+  - IP-CIDR,66.220.144.0/20,Metaverse
+  - IP-CIDR,69.171.224.0/19,Metaverse
+  - IP-CIDR,173.252.64.0/19,Metaverse
+  - IP-CIDR,185.60.216.0/22,Metaverse
+  - IP-CIDR,204.15.20.0/22,Metaverse

@@ -1,0 +1,70 @@
+# fadzdigital
+# Rule untuk Prime Video
+
+payload:
+  # Prime Video - Domain Suffixes
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,pv-cdn.net
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonprimevideo.com
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN-SUFFIX,fls-na.amazon.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,device-metrics-us.amazon.com
+  - DOMAIN-SUFFIX,amazon-adsystem.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
+  - DOMAIN-SUFFIX,atv-ext-eu.amazon.com
+  - DOMAIN-SUFFIX,atv-ext-fe.amazon.com
+  - DOMAIN-SUFFIX,atv-ext.amazon.com
+  - DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
+  - DOMAIN-SUFFIX,atv-ps-eu.amazon.com
+  - DOMAIN-SUFFIX,atv-ps-fe.amazon.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.co.uk
+  - DOMAIN-SUFFIX,primevideo.info
+  - DOMAIN-SUFFIX,prime-video.com
+  - DOMAIN-SUFFIX,amazonvideodirect.cc
+  - DOMAIN-SUFFIX,amazonprimevideos.com
+  - DOMAIN-SUFFIX,video.a2z.com
+
+  # Prime Video - Domain Keywords
+  - DOMAIN-KEYWORD,primevideo
+  - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-KEYWORD,amazonvideo
+  - DOMAIN-KEYWORD,amazontrust
+  - DOMAIN-KEYWORD,amazon-adsystem
+  - DOMAIN-KEYWORD,aiv-delivery
+  - DOMAIN-KEYWORD,video.a2z
+  
+  # Prime Video - IP Ranges
+  - IP-CIDR,13.32.0.0/15,no-resolve
+  - IP-CIDR,13.35.0.0/16,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - IP-CIDR,99.84.0.0/16,no-resolve
+  - IP-CIDR,13.224.0.0/14,no-resolve
+  - IP-CIDR,13.228.0.0/15,no-resolve
+  - IP-CIDR,15.188.0.0/16,no-resolve
+  - IP-CIDR,52.46.0.0/16,no-resolve
+  - IP-CIDR,52.82.128.0/19,no-resolve
+  - IP-CIDR,52.82.164.0/22,no-resolve
+  - IP-CIDR,54.222.128.0/17,no-resolve
+  - IP-CIDR,54.239.128.0/18,no-resolve
+  - IP-CIDR,54.240.128.0/18,no-resolve
+  - IP-CIDR,205.251.192.0/19,no-resolve

@@ -1,0 +1,98 @@
+# fadzdigital
+# Rule untuk Situs Pornografi
+
+payload:
+  # Porn - Domain Keywords
+  - DOMAIN-KEYWORD,porn
+  - DOMAIN-KEYWORD,adult
+  - DOMAIN-KEYWORD,xxx
+  - DOMAIN-KEYWORD,sex
+  - DOMAIN-KEYWORD,hentai
+  - DOMAIN-KEYWORD,porno
+  - DOMAIN-KEYWORD,bokep
+  - DOMAIN-KEYWORD,jav
+  - DOMAIN-KEYWORD,nsfw
+  - DOMAIN-KEYWORD,xvideo
+  - DOMAIN-KEYWORD,xnxx
+  - DOMAIN-KEYWORD,redtube
+  - DOMAIN-KEYWORD,youporn
+  - DOMAIN-KEYWORD,brazzers
+  - DOMAIN-KEYWORD,pornhub
+  - DOMAIN-KEYWORD,javhd
+  
+  # Porn - Domain Suffixes (Major Sites)
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,youporn.com
+  - DOMAIN-SUFFIX,tube8.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,brazzers.com
+  - DOMAIN-SUFFIX,eporner.com
+  - DOMAIN-SUFFIX,youjizz.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  - DOMAIN-SUFFIX,cam4.com
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,myfreecams.com
+  - DOMAIN-SUFFIX,stripchat.com
+  - DOMAIN-SUFFIX,adultfriendfinder.com
+  - DOMAIN-SUFFIX,adulttime.com
+  - DOMAIN-SUFFIX,bangbros.com
+  - DOMAIN-SUFFIX,digitalplayground.com
+  - DOMAIN-SUFFIX,fakehub.com
+  - DOMAIN-SUFFIX,mofos.com
+  - DOMAIN-SUFFIX,naughtyamerica.com
+  - DOMAIN-SUFFIX,reality.kings.com
+  - DOMAIN-SUFFIX,twistys.com
+  - DOMAIN-SUFFIX,onlyfans.com
+  - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,javlibrary.com
+  - DOMAIN-SUFFIX,r18.com
+  - DOMAIN-SUFFIX,donmai.us
+  - DOMAIN-SUFFIX,gelbooru.com
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,nhentai.net
+  - DOMAIN-SUFFIX,sankakucomplex.com
+  - DOMAIN-SUFFIX,rule34.xxx
+  - DOMAIN-SUFFIX,danbooru.donmai.us
+  - DOMAIN-SUFFIX,hentai-foundry.com
+  - DOMAIN-SUFFIX,booru.org
+  
+  # Porn - Indonesia Specific
+  - DOMAIN-SUFFIX,bokepindo.cam
+  - DOMAIN-SUFFIX,videobokepindonesia.org
+  - DOMAIN-SUFFIX,indoxxi.info
+  - DOMAIN-SUFFIX,semprot.com
+  - DOMAIN-SUFFIX,17cinemaxx.com
+  - DOMAIN-SUFFIX,bomjav.com
+  - DOMAIN-SUFFIX,nontonbokep.top
+  - DOMAIN-SUFFIX,playbokep.me
+  - DOMAIN-SUFFIX,bokepindohot.pw
+  
+  # Porn - CDNs and Resources
+  - DOMAIN-SUFFIX,cdn13.com
+  - DOMAIN-SUFFIX,pornimg.xyz
+  - DOMAIN-SUFFIX,thumbzilla.com
+  - DOMAIN-SUFFIX,trafficjunky.net
+  - DOMAIN-SUFFIX,contentabc.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,cdn1122.com
+  - DOMAIN-SUFFIX,img.javstore.net
+  - DOMAIN-SUFFIX,nsimg.net
+  - DOMAIN-SUFFIX,static-clst.avgle.com
+  - DOMAIN-SUFFIX,vjs.zencdn.net
+  - DOMAIN-SUFFIX,recurbate.com
+  - DOMAIN-SUFFIX,highwebmedia.com
+  - DOMAIN-SUFFIX,camster.com
+  - DOMAIN-SUFFIX,imlive.com
+  - DOMAIN-SUFFIX,adxxx.com
+  - DOMAIN-SUFFIX,contentdef.com
+  - DOMAIN-SUFFIX,adtng.com
+  - DOMAIN-SUFFIX,juicyads.com
+  - DOMAIN-SUFFIX,exosrv.com
+  - DOMAIN-SUFFIX,etahub.com
+  - DOMAIN-SUFFIX,trafficstars.com

@@ -1,0 +1,90 @@
+#fadzdigital
+# Rule LAN CIDR untuk OpenClash
+payload:
+  # RFC 1918 (Private Internet)
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,192.168.0.0/16
+  
+  # Local Host
+  - IP-CIDR,127.0.0.0/8
+  
+  # Link Local
+  - IP-CIDR,169.254.0.0/16
+  
+  # Local multicast packets
+  - IP-CIDR,224.0.0.0/4
+  
+  # Special Use IPv4 (includes broadcast, multicast)
+  - IP-CIDR,240.0.0.0/4
+  - IP-CIDR,255.255.255.255/32
+  
+  # IETF Protocol Assignments
+  - IP-CIDR,192.0.0.0/24
+  
+  # APIPA: Automatic Private IP Addressing
+  - IP-CIDR,169.254.0.0/16
+  
+  # Reserved for benchmarking
+  - IP-CIDR,198.18.0.0/15
+  
+  # TEST-NET-1
+  - IP-CIDR,192.0.2.0/24
+  
+  # TEST-NET-2
+  - IP-CIDR,198.51.100.0/24
+  
+  # TEST-NET-3
+  - IP-CIDR,203.0.113.0/24
+  
+  # IPv6 Unique Local Addresses (ULA)
+  - IP-CIDR6,fc00::/7
+  
+  # IPv6 Link Local
+  - IP-CIDR6,fe80::/10
+  
+  # IPv6 Loopback
+  - IP-CIDR6,::1/128
+  
+  # IPv6 multicast
+  - IP-CIDR6,ff00::/8
+  
+  # IPv6 Discard prefix
+  - IP-CIDR6,100::/64
+  
+  # IPv6 Reserved
+  - IP-CIDR6,2001:db8::/32
+  
+  # LAN Domain Names
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,localhost
+  - DOMAIN-SUFFIX,lan
+  - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,intranet
+  - DOMAIN-SUFFIX,internal
+  - DOMAIN-SUFFIX,corp
+  - DOMAIN-SUFFIX,private
+  - DOMAIN-SUFFIX,home
+  - DOMAIN-SUFFIX,gateway.local
+  - DOMAIN-SUFFIX,router.local
+  
+  # Common Router Access Addresses
+  - DOMAIN,router.asus.com
+  - DOMAIN,tplogin.cn
+  - DOMAIN,tplinklogin.net
+  - DOMAIN,tplinkwifi.net
+  - DOMAIN,tendawifi.com
+  - DOMAIN,leike.cc
+  - DOMAIN,miwifi.com
+  - DOMAIN,my.router
+  - DOMAIN,myfiberhome.com
+  - DOMAIN,p.to
+  - DOMAIN,phicomm.me
+  - DOMAIN,router.ctc
+  - DOMAIN,routerlogin.com
+  - DOMAIN,tendawifi.com
+  - DOMAIN,zte.home
+  - DOMAIN,192.168.1.1
+  - DOMAIN,192.168.0.1
+  - DOMAIN,10.0.0.1

@@ -1,0 +1,109 @@
+#fadzdigital
+# Rule LINE untuk OpenClash
+payload:
+  # LINE Main Domains
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line.naver.jp
+  - DOMAIN-SUFFIX,linecorp.com
+  - DOMAIN-SUFFIX,line.biz
+  
+  # LINE Services
+  - DOMAIN-SUFFIX,line-beta.me
+  - DOMAIN-SUFFIX,line.works
+  - DOMAIN-SUFFIX,lineworks.jp
+  - DOMAIN-SUFFIX,worksmobile.com
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN-SUFFIX,linefriends.com
+  - DOMAIN-SUFFIX,linegames.com
+  - DOMAIN-SUFFIX,linemobile.com
+  - DOMAIN-SUFFIX,linemobility.com
+  - DOMAIN-SUFFIX,lineshoppingseller.com
+  - DOMAIN-SUFFIX,linefriends.com.tw
+  - DOMAIN-SUFFIX,linepay.com
+  - DOMAIN-SUFFIX,linepay.com.tw
+  - DOMAIN-SUFFIX,linemember.com
+  - DOMAIN-SUFFIX,linemo.jp
+  
+  # LINE CDN
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,lineo.me
+  - DOMAIN-SUFFIX,lin.ee
+  - DOMAIN-SUFFIX,line-apps-cdn.com
+  - DOMAIN-SUFFIX,line-apps-beta.com
+  - DOMAIN-SUFFIX,naver.jp
+  
+  # LINE Stickers
+  - DOMAIN-SUFFIX,linesticker.com
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,linecorp.linemobile.com
+  
+  # LINE Communication
+  - DOMAIN-SUFFIX,legy.line-apps.com
+  - DOMAIN-SUFFIX,obs.line-apps.com
+  - DOMAIN-SUFFIX,obs-sg.line-apps.com
+  - DOMAIN-SUFFIX,obs-tw.line-apps.com
+  - DOMAIN-SUFFIX,scdn.line-apps.com
+  - DOMAIN-SUFFIX,chat.line.biz
+  - DOMAIN-SUFFIX,talk.line.biz
+  - DOMAIN-SUFFIX,square-api.line.me
+  - DOMAIN-SUFFIX,g2.line.naver.jp
+  - DOMAIN-SUFFIX,gd2.line.naver.jp
+  - DOMAIN-SUFFIX,gf.line.naver.jp
+  - DOMAIN-SUFFIX,gw.line.naver.jp
+  
+  # LINE API
+  - DOMAIN,api.line.me
+  - DOMAIN,api-real.line.me
+  - DOMAIN,api.lineworksmobile.com
+  - DOMAIN,w.line.me
+  - DOMAIN,cyos-cloud.line-apps.com
+  - DOMAIN,partner-auth.line-apps.com
+  - DOMAIN,buy.line.me
+  - DOMAIN,shop.line.me
+  - DOMAIN,pay.line.me
+  - DOMAIN,access.line.me
+  - DOMAIN,today.line.me
+  - DOMAIN,creators.line.me
+  - DOMAIN,notify-api.line.me
+  - DOMAIN,notify-bot.line.me
+  
+  # LINE Video / Live Streaming
+  - DOMAIN-SUFFIX,d.line-cdn.net
+  - DOMAIN-SUFFIX,d.line-scdn.net
+  - DOMAIN-SUFFIX,dl.profile.line-cdn.net
+  - DOMAIN-SUFFIX,profile.line-cdn.net
+  - DOMAIN-SUFFIX,stickershop.line-scdn.net
+  - DOMAIN-SUFFIX,sdl-stickershop.line.naver.jp
+  - DOMAIN-SUFFIX,vos.line-cdn.net
+  - DOMAIN-SUFFIX,vos-zaggtv.line-apps.com
+  - DOMAIN-SUFFIX,vod-api.line-tv.me
+  - DOMAIN-SUFFIX,video.line.me
+  - DOMAIN-SUFFIX,streaming.line.me
+  
+  # LINE Game and Related
+  - DOMAIN-SUFFIX,game.line.me
+  - DOMAIN-SUFFIX,game-overlay.line.naver.jp
+  - DOMAIN-SUFFIX,scdn.line-apps.com
+  - DOMAIN-SUFFIX,store.linegames.com
+  
+  # LINE IP Ranges
+  - IP-CIDR,103.2.28.0/22
+  - IP-CIDR,119.235.224.0/21
+  - IP-CIDR,119.235.232.0/23
+  - IP-CIDR,119.235.235.0/24
+  - IP-CIDR,119.235.236.0/23
+  - IP-CIDR,125.209.208.0/20
+  - IP-CIDR,203.104.128.0/20
+  - IP-CIDR,203.104.144.0/21
+  - IP-CIDR,125.6.146.0/24
+  - IP-CIDR,125.6.149.0/24
+  - IP-CIDR,125.6.190.0/24
+  - IP-CIDR,147.92.128.0/17
+  - IP-CIDR,203.104.153.0/24
+  - IP-CIDR,203.104.160.0/20
+  - IP-CIDR,203.174.66.64/26
+  - IP-CIDR,203.174.77.0/24
