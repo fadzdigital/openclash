@@ -1,0 +1,202 @@
+# OpenClash Rule untuk E-commerce Indonesia
+# By fadzdigital
+
+payload:
+  # ======= SHOPEE =======
+  # Domain utama Shopee
+  - DOMAIN-SUFFIX,shopee.co.id
+  - DOMAIN-SUFFIX,shopee.com
+  - DOMAIN-SUFFIX,shopee.io
+  - DOMAIN-SUFFIX,shopee.sg
+  - DOMAIN-SUFFIX,shopeemobile.com
+  - DOMAIN-SUFFIX,shopeeusercontent.com
+  - DOMAIN-SUFFIX,shp.ee
+  
+  # CDN dan layanan pendukung Shopee
+  - DOMAIN-SUFFIX,shopeesz.com
+  - DOMAIN-SUFFIX,shopee-promo.com
+  - DOMAIN-SUFFIX,shopeeapp.com
+  - DOMAIN-SUFFIX,zaloapp.com
+  - DOMAIN-SUFFIX,file.shopeemobile.com
+  - DOMAIN-SUFFIX,cf.shopee.co.id
+  - DOMAIN-SUFFIX,mall.shopee.co.id
+  - DOMAIN-SUFFIX,games.shopee.co.id
+  
+  # API dan layanan backend Shopee
+  - DOMAIN-SUFFIX,api.shopee.co.id
+  - DOMAIN-SUFFIX,buyer.shopee.co.id
+  - DOMAIN-SUFFIX,seller.shopee.co.id
+  - DOMAIN-SUFFIX,chatapp.shopee.co.id
+  - DOMAIN-SUFFIX,gslb.shopee.io
+  - DOMAIN-SUFFIX,log-collector.shopee.co.id
+  
+  # ShopeePay dan layanan pembayaran
+  - DOMAIN-SUFFIX,shopeepay.co.id
+  - DOMAIN-SUFFIX,shopee.co.id/shopeepaylater
+  - DOMAIN-SUFFIX,airpay.co.id
+  
+  # ======= TOKOPEDIA =======
+  - DOMAIN-SUFFIX,tokopedia.com
+  - DOMAIN-SUFFIX,tokopedia.net
+  - DOMAIN-SUFFIX,tokopedia.link
+  - DOMAIN-SUFFIX,tokobase.com
+  - DOMAIN-SUFFIX,tokopediastatic.com
+  - DOMAIN-SUFFIX,tokopedia-cdn.net
+  
+  # ======= BUKALAPAK =======
+  - DOMAIN-SUFFIX,bukalapak.com
+  - DOMAIN-SUFFIX,bukalapak.io
+  - DOMAIN-SUFFIX,bukalapak.net
+  - DOMAIN-SUFFIX,bukalapakcdn.com
+  
+  # ======= LAZADA =======
+  - DOMAIN-SUFFIX,lazada.co.id
+  - DOMAIN-SUFFIX,lazada.com
+  - DOMAIN-SUFFIX,laz-img-cdn.alicdn.com
+  - DOMAIN-SUFFIX,lazada-affiliate.com
+  - DOMAIN-SUFFIX,lazmall.com
+  - DOMAIN-SUFFIX,lazadaapp.com
+  
+  # ======= BLIBLI =======
+  - DOMAIN-SUFFIX,blibli.com
+  - DOMAIN-SUFFIX,bliblicdn.com
+  - DOMAIN-SUFFIX,blibli.co.id
+  
+  # ======= JD.ID =======
+  - DOMAIN-SUFFIX,jd.id
+  - DOMAIN-SUFFIX,jdid.id
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,360buyimg.com
+  - DOMAIN-SUFFIX,jdcdn.id
+  
+  # ======= TIKTOK SHOP =======
+  - DOMAIN-SUFFIX,tiktokshop.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  
+  # ======= SOCIAL COMMERCE =======
+  # Facebook Marketplace
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,m.me
+  
+  # Instagram Shop
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,ig.me
+  - DOMAIN-SUFFIX,igsonar.com
+  
+  # ======= MARKETPLACE KHUSUS =======
+  # Zalora
+  - DOMAIN-SUFFIX,zalora.co.id
+  - DOMAIN-SUFFIX,zalora.com
+  - DOMAIN-SUFFIX,zdn.net
+  - DOMAIN-SUFFIX,zalora-media.com
+  
+  # Bhinneka
+  - DOMAIN-SUFFIX,bhinneka.com
+  - DOMAIN-SUFFIX,bhinnekacdn.com
+  - DOMAIN-SUFFIX,bhinnekadeveloper.com
+  
+  # Sociolla
+  - DOMAIN-SUFFIX,sociolla.com
+  - DOMAIN-SUFFIX,soco.id
+  - DOMAIN-SUFFIX,sociollacdn.com
+  - DOMAIN-SUFFIX,beautyjournal.com
+  
+  # Marketplace Fashion & Kecantikan lainnya
+  - DOMAIN-SUFFIX,berrybenka.com
+  - DOMAIN-SUFFIX,hijup.com
+  - DOMAIN-SUFFIX,bobobobo.com
+  - DOMAIN-SUFFIX,maskoolin.com
+  - DOMAIN-SUFFIX,orami.co.id
+  - DOMAIN-SUFFIX,femaledaily.com
+  
+  # Marketplace Electronics
+  - DOMAIN-SUFFIX,digimap.id
+  - DOMAIN-SUFFIX,eraspace.com
+  - DOMAIN-SUFFIX,enterkomputer.com
+  - DOMAIN-SUFFIX,ruparupa.com
+  
+  # Marketplace Grocery & FnB
+  - DOMAIN-SUFFIX,sayurbox.com
+  - DOMAIN-SUFFIX,happyfresh.com
+  - DOMAIN-SUFFIX,segari.id
+  - DOMAIN-SUFFIX,astro.co.id
+  
+  # ======= LAYANAN PEMBAYARAN TAMBAHAN =======
+  # Flip
+  - DOMAIN-SUFFIX,flip.id
+  - DOMAIN-SUFFIX,flipid.zendesk.com
+  
+  # BTPN Jenius
+  - DOMAIN-SUFFIX,jenius.com
+  - DOMAIN-SUFFIX,jenius.id
+  - DOMAIN-SUFFIX,btpn.com
+  
+  # Kredivo
+  - DOMAIN-SUFFIX,kredivo.com
+  - DOMAIN-SUFFIX,kredivo.id
+  
+  # Pembayaran Digital Lainnya
+  - DOMAIN-SUFFIX,akulaku.com
+  - DOMAIN-SUFFIX,indodana.id
+  - DOMAIN-SUFFIX,atome.id
+  - DOMAIN-SUFFIX,spaylater.com
+  - DOMAIN-SUFFIX,gopaylater.com
+  - DOMAIN-SUFFIX,paylater.tokopedia.com
+  - DOMAIN-SUFFIX,julo.co.id
+  - DOMAIN-SUFFIX,uangme.com
+  - DOMAIN-SUFFIX,pinjam.co.id
+  - DOMAIN-SUFFIX,bluepay.id
+  - DOMAIN-SUFFIX,bluebird.id
+  
+  # ======= LAYANAN PENDUKUNG =======
+  # CDN dan teknologi yang digunakan e-commerce
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,fastly.net
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  
+  # Layanan pembayaran
+  - DOMAIN-SUFFIX,midtrans.com
+  - DOMAIN-SUFFIX,xendit.co
+  - DOMAIN-SUFFIX,doku.com
+  - DOMAIN-SUFFIX,ovo.id
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-SUFFIX,gopay.co.id
+  - DOMAIN-SUFFIX,linkaja.id
+  
+  # Logistik dan pengiriman
+  - DOMAIN-SUFFIX,jne.co.id
+  - DOMAIN-SUFFIX,jnt.co.id
+  - DOMAIN-SUFFIX,sicepat.com
+  - DOMAIN-SUFFIX,anteraja.id
+  - DOMAIN-SUFFIX,gosend.id
+  - DOMAIN-SUFFIX,shopeexp.co.id
+  - DOMAIN-SUFFIX,wahana.com
+  - DOMAIN-SUFFIX,tiki.id
+  - DOMAIN-SUFFIX,jet.co.id
+  - DOMAIN-SUFFIX,paxel.co
+  - DOMAIN-SUFFIX,pos.co.id
+  - DOMAIN-SUFFIX,sap-express.id
+  - DOMAIN-SUFFIX,ninja.co.id
+  - DOMAIN-SUFFIX,grab.com
+  - DOMAIN-SUFFIX,lalamove.com
+  
+  # IP Ranges Khusus untuk Shopee (untuk mengurangi delay)
+  - IP-CIDR,103.115.64.0/22
+  - IP-CIDR,128.1.0.0/16
+  - IP-CIDR,128.14.0.0/16
+  - IP-CIDR,203.119.144.0/23
+  - IP-CIDR,209.58.128.0/18
+  - IP-CIDR,223.255.224.0/24
+  
+  # Untuk koneksi streaming video dalam aplikasi e-commerce
+  - DOMAIN-KEYWORD,stream
+  - DOMAIN-KEYWORD,video
