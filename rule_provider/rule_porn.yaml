@@ -2,97 +2,303 @@
 # Rule untuk Situs Pornografi
 
 payload:
-  # Porn - Domain Keywords
+  # Situs Konten Dewasa Terkenal
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,youporn.com
+  - DOMAIN-SUFFIX,tube8.com
+  - DOMAIN-SUFFIX,youjizz.com
+  - DOMAIN-SUFFIX,motherless.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,beeg.com
+  - DOMAIN-SUFFIX,pornmd.com
+  - DOMAIN-SUFFIX,thumbzilla.com
+  - DOMAIN-SUFFIX,drtuber.com
+  - DOMAIN-SUFFIX,tnaflix.com
+  - DOMAIN-SUFFIX,pornhd.com
+  - DOMAIN-SUFFIX,porn.com
+  - DOMAIN-SUFFIX,brazzers.com
+  - DOMAIN-SUFFIX,bangbros.com
+  - DOMAIN-SUFFIX,reality-kings.com
+  - DOMAIN-SUFFIX,mofos.com
+  - DOMAIN-SUFFIX,pornpros.com
+  - DOMAIN-SUFFIX,digitalplayground.com
+  - DOMAIN-SUFFIX,onlyfans.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  - DOMAIN-SUFFIX,cam4.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,myfreecams.com
+  - DOMAIN-SUFFIX,adultfriendfinder.com
+  - DOMAIN-SUFFIX,fetlife.com
+  - DOMAIN-SUFFIX,literotica.com
+  - DOMAIN-SUFFIX,manhub.com
+  - DOMAIN-SUFFIX,rule34.xxx
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,stripchat.com
+  - DOMAIN-SUFFIX,flirt4free.com
+  - DOMAIN-SUFFIX,camsoda.com
+  - DOMAIN-SUFFIX,streamate.com
+  
+  # Situs Konten Dewasa Populer Tambahan
+  - DOMAIN-SUFFIX,4tube.com
+  - DOMAIN-SUFFIX,8muses.com
+  - DOMAIN-SUFFIX,alohatube.com
+  - DOMAIN-SUFFIX,ashemaletube.com
+  - DOMAIN-SUFFIX,bravotube.net
+  - DOMAIN-SUFFIX,digitaldesire.com
+  - DOMAIN-SUFFIX,empflix.com
+  - DOMAIN-SUFFIX,eporner.com
+  - DOMAIN-SUFFIX,extremetube.com
+  - DOMAIN-SUFFIX,faapy.com
+  - DOMAIN-SUFFIX,fantasti.cc
+  - DOMAIN-SUFFIX,fapality.com
+  - DOMAIN-SUFFIX,fapdu.com
+  - DOMAIN-SUFFIX,free18.net
+  - DOMAIN-SUFFIX,fuq.com
+  - DOMAIN-SUFFIX,gotporn.com
+  - DOMAIN-SUFFIX,hclips.com
+  - DOMAIN-SUFFIX,heavy-r.com
+  - DOMAIN-SUFFIX,hellporno.com
+  - DOMAIN-SUFFIX,hqporner.com
+  - DOMAIN-SUFFIX,imagefap.com
+  - DOMAIN-SUFFIX,imagebam.com
+  - DOMAIN-SUFFIX,keezmovies.com
+  - DOMAIN-SUFFIX,mydirtyhobby.com
+  - DOMAIN-SUFFIX,nuvid.com
+  - DOMAIN-SUFFIX,nudevista.com
+  - DOMAIN-SUFFIX,pichunter.com
+  - DOMAIN-SUFFIX,porndig.com
+  - DOMAIN-SUFFIX,pornhublive.com
+  - DOMAIN-SUFFIX,pornmaki.com
+  - DOMAIN-SUFFIX,pornerbros.com
+  - DOMAIN-SUFFIX,porntube.com
+  - DOMAIN-SUFFIX,pornorips.com
+  - DOMAIN-SUFFIX,porzo.com
+  - DOMAIN-SUFFIX,redgifs.com
+  - DOMAIN-SUFFIX,rexxx.com
+  - DOMAIN-SUFFIX,sextvx.com
+  - DOMAIN-SUFFIX,spankwire.com
+  - DOMAIN-SUFFIX,swinglifestyle.com
+  - DOMAIN-SUFFIX,theyarehuge.com
+  - DOMAIN-SUFFIX,thisvid.com
+  - DOMAIN-SUFFIX,txxx.com
+  - DOMAIN-SUFFIX,tubegalore.com
+  - DOMAIN-SUFFIX,upornia.com
+  - DOMAIN-SUFFIX,vporn.com
+  - DOMAIN-SUFFIX,xfantasy.com
+  - DOMAIN-SUFFIX,xozilla.com
+  - DOMAIN-SUFFIX,zbporn.com
+  - DOMAIN-SUFFIX,zzcartoon.com
+  
+  # Situs Konten Dewasa Asia
+  - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,dmm.co.jp
+  - DOMAIN-SUFFIX,r18.com
+  - DOMAIN-SUFFIX,1pondo.tv
+  - DOMAIN-SUFFIX,caribbeancom.com
+  - DOMAIN-SUFFIX,tokyo-hot.com
+  - DOMAIN-SUFFIX,heyzo.com
+  - DOMAIN-SUFFIX,javbus.com
+  - DOMAIN-SUFFIX,javlibrary.com
+  - DOMAIN-SUFFIX,javfinder.is
+  - DOMAIN-SUFFIX,av9898.com
+  - DOMAIN-SUFFIX,aventertainments.com
+  - DOMAIN-SUFFIX,caribbeancompr.com
+  - DOMAIN-SUFFIX,10musume.com
+  - DOMAIN-SUFFIX,pacopacomama.com
+  - DOMAIN-SUFFIX,javhub.net
+  - DOMAIN-SUFFIX,jav789.com
+  - DOMAIN-SUFFIX,porn99.net
+  - DOMAIN-SUFFIX,jav.guru
+  - DOMAIN-SUFFIX,javmost.com
+  - DOMAIN-SUFFIX,thisav.com
+  - DOMAIN-SUFFIX,javhay.pro
+  - DOMAIN-SUFFIX,jav.si
+  - DOMAIN-SUFFIX,jav123.com
+  - DOMAIN-SUFFIX,avgle.com
+  
+  # Situs Manga/Anime Dewasa
+  - DOMAIN-SUFFIX,nhentai.net
+  - DOMAIN-SUFFIX,hentai-foundry.com
+  - DOMAIN-SUFFIX,fakku.net
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,exhentai.org
+  - DOMAIN-SUFFIX,doujins.com
+  - DOMAIN-SUFFIX,hentai.ms
+  - DOMAIN-SUFFIX,hentaihaven.xxx
+  - DOMAIN-SUFFIX,hentaigasm.com
+  - DOMAIN-SUFFIX,hanime.tv
+  - DOMAIN-SUFFIX,hentai-anime.com
+  - DOMAIN-SUFFIX,hentaimama.io
+  - DOMAIN-SUFFIX,hentaipros.com
+  - DOMAIN-SUFFIX,simply-hentai.com
+  - DOMAIN-SUFFIX,hentaihero.net
+  - DOMAIN-SUFFIX,poringa.net
+  - DOMAIN-SUFFIX,hentai2read.com
+  - DOMAIN-SUFFIX,hentaicore.org
+  - DOMAIN-SUFFIX,tsumino.com
+  - DOMAIN-SUFFIX,doujinshi.org
+  
+  # Jaringan Pengirim Konten (CDN) untuk Situs Dewasa
+  - DOMAIN-SUFFIX,cdncdn.com
+  - DOMAIN-SUFFIX,trafficjunky.net
+  - DOMAIN-SUFFIX,juicyads.com
+  - DOMAIN-SUFFIX,exoclick.com
+  - DOMAIN-SUFFIX,contentabc.com
+  - DOMAIN-SUFFIX,cdn84.com
+  - DOMAIN-SUFFIX,gstatic.porn
+  - DOMAIN-SUFFIX,datoporn.co
+  - DOMAIN-SUFFIX,pornimg.xyz
+  - DOMAIN-SUFFIX,pbsrc.net
+  - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,t8cdn.com
+  - DOMAIN-SUFFIX,trafficfactory.biz
+  - DOMAIN-SUFFIX,adtng.com
+  - DOMAIN-SUFFIX,contentdef.com
+  - DOMAIN-SUFFIX,rncdn7.com
+  - DOMAIN-SUFFIX,rncdn8.com
+  
+  # Domain Aplikasi Konten Dewasa
+  - DOMAIN-SUFFIX,adulttime.com
+  - DOMAIN-SUFFIX,manyvids.com
+  - DOMAIN-SUFFIX,porntrex.com
+  - DOMAIN-SUFFIX,porndroids.com
+  - DOMAIN-SUFFIX,adultappmart.com
+  - DOMAIN-SUFFIX,appcolt.com
+  - DOMAIN-SUFFIX,apptap.com
+  - DOMAIN-SUFFIX,lustyapp.com
+  - DOMAIN-SUFFIX,sexzoneapp.com
+  - DOMAIN-SUFFIX,sexvideoshub.com
+  - DOMAIN-SUFFIX,asmr.porn
+  - DOMAIN-SUFFIX,justpicsplease.com
+  - DOMAIN-SUFFIX,feedly.adult
+  - DOMAIN-SUFFIX,reddit-nsfw.com
+  - DOMAIN-SUFFIX,eroticmonkey.com
+  - DOMAIN-SUFFIX,escortfish.com
+  - DOMAIN-SUFFIX,skipthegames.com
+  - DOMAIN-SUFFIX,slixxx.com
+  - DOMAIN-SUFFIX,xapps.live
+  - DOMAIN-SUFFIX,dirtyroulette.com
+  
+  # Situs Media Sosial Konten Dewasa
+  - DOMAIN-SUFFIX,porntwitter.com
+  - DOMAIN-SUFFIX,scrolller.com
+  - DOMAIN-SUFFIX,reddit-nsfw.com
+  - DOMAIN-SUFFIX,xlovecam.com
+  - DOMAIN-SUFFIX,imagefap.com
+  - DOMAIN-SUFFIX,adultforum.com
+  - DOMAIN-SUFFIX,anonib.com
+  - DOMAIN-SUFFIX,eroprofile.com
+  - DOMAIN-SUFFIX,forfan.com
+  - DOMAIN-SUFFIX,ijustwantsex.com
+  
+  # Kata Kunci dalam URL
   - DOMAIN-KEYWORD,porn
   - DOMAIN-KEYWORD,adult
   - DOMAIN-KEYWORD,xxx
   - DOMAIN-KEYWORD,sex
+  - DOMAIN-KEYWORD,erotic
   - DOMAIN-KEYWORD,hentai
-  - DOMAIN-KEYWORD,porno
+  - DOMAIN-KEYWORD,pussy
+  - DOMAIN-KEYWORD,boob
+  - DOMAIN-KEYWORD,penis
+  - DOMAIN-KEYWORD,vagina
+  - DOMAIN-KEYWORD,escort
+  - DOMAIN-KEYWORD,nude
   - DOMAIN-KEYWORD,bokep
-  - DOMAIN-KEYWORD,jav
-  - DOMAIN-KEYWORD,nsfw
-  - DOMAIN-KEYWORD,xvideo
-  - DOMAIN-KEYWORD,xnxx
-  - DOMAIN-KEYWORD,redtube
-  - DOMAIN-KEYWORD,youporn
-  - DOMAIN-KEYWORD,brazzers
-  - DOMAIN-KEYWORD,pornhub
-  - DOMAIN-KEYWORD,javhd
+  - DOMAIN-KEYWORD,dewasa
+  - DOMAIN-KEYWORD,telanjang
+  - DOMAIN-KEYWORD,bugil
+  - DOMAIN-KEYWORD,ngentot
+  - DOMAIN-KEYWORD,memek
+  - DOMAIN-KEYWORD,kontol
+  - DOMAIN-KEYWORD,mesum
+  - DOMAIN-KEYWORD,sange
+  - DOMAIN-KEYWORD,birahi
   
-  # Porn - Domain Suffixes (Major Sites)
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,pornhubpremium.com
-  - DOMAIN-SUFFIX,redtube.com
-  - DOMAIN-SUFFIX,xhamster.com
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,youporn.com
-  - DOMAIN-SUFFIX,tube8.com
-  - DOMAIN-SUFFIX,spankbang.com
-  - DOMAIN-SUFFIX,brazzers.com
-  - DOMAIN-SUFFIX,eporner.com
-  - DOMAIN-SUFFIX,youjizz.com
-  - DOMAIN-SUFFIX,chaturbate.com
-  - DOMAIN-SUFFIX,cam4.com
-  - DOMAIN-SUFFIX,bongacams.com
-  - DOMAIN-SUFFIX,livejasmin.com
-  - DOMAIN-SUFFIX,myfreecams.com
-  - DOMAIN-SUFFIX,stripchat.com
+  # Domain TLD untuk Situs Dewasa
+  - DOMAIN-SUFFIX,porn
+  - DOMAIN-SUFFIX,xxx
+  - DOMAIN-SUFFIX,adult
+  - DOMAIN-SUFFIX,sex
+  - DOMAIN-SUFFIX,sexy
+  
+  # Situs Kencan/Dating yang Eksplisit
   - DOMAIN-SUFFIX,adultfriendfinder.com
-  - DOMAIN-SUFFIX,adulttime.com
-  - DOMAIN-SUFFIX,bangbros.com
-  - DOMAIN-SUFFIX,digitalplayground.com
-  - DOMAIN-SUFFIX,fakehub.com
-  - DOMAIN-SUFFIX,mofos.com
-  - DOMAIN-SUFFIX,naughtyamerica.com
-  - DOMAIN-SUFFIX,reality.kings.com
+  - DOMAIN-SUFFIX,ashleymadison.com
+  - DOMAIN-SUFFIX,naughtydate.com
+  - DOMAIN-SUFFIX,swinglifestyle.com
+  - DOMAIN-SUFFIX,fuckbook.com
+  - DOMAIN-SUFFIX,instabang.com
+  - DOMAIN-SUFFIX,fling.com
+  - DOMAIN-SUFFIX,seeking.com
+  - DOMAIN-SUFFIX,naughtyfind.com
+  - DOMAIN-SUFFIX,passion.com
+  - DOMAIN-SUFFIX,hornywife.com
+  - DOMAIN-SUFFIX,spdate.com
+  - DOMAIN-SUFFIX,getitonfree.com
+  - DOMAIN-SUFFIX,ihookup.com
+  - DOMAIN-SUFFIX,together2night.com
+  - DOMAIN-SUFFIX,lonely-cheating-wives.com
+  - DOMAIN-SUFFIX,xmeetx.com
+  - DOMAIN-SUFFIX,whiplr.com
+  - DOMAIN-SUFFIX,kinky.com
+  - DOMAIN-SUFFIX,alt.com
+  
+  # Situs Konten Dewasa Indonesia
+  - DOMAIN-SUFFIX,bokepindo.io
+  - DOMAIN-SUFFIX,bokepindonesia.co
+  - DOMAIN-SUFFIX,bokepin.net
+  - DOMAIN-SUFFIX,bokepnesia.info
+  - DOMAIN-SUFFIX,bokepbarat.asia
+  - DOMAIN-SUFFIX,videobokep.me
+  - DOMAIN-SUFFIX,bokepin.co
+  - DOMAIN-SUFFIX,bokepkeren.casa
+  - DOMAIN-SUFFIX,bokepjepang.asia
+  - DOMAIN-SUFFIX,bokepterus.com
+  - DOMAIN-SUFFIX,indoxporn.com
+  - DOMAIN-SUFFIX,bokepid.xyz
+  - DOMAIN-SUFFIX,bokepindonesia.biz
+  - DOMAIN-SUFFIX,bokeponline.link
+  - DOMAIN-SUFFIX,videobokepgratis.me
+  - DOMAIN-SUFFIX,ngetot.com
+  - DOMAIN-SUFFIX,memekbecek.net
+  - DOMAIN-SUFFIX,bokepkita.xyz
+  - DOMAIN-SUFFIX,bokepbaru.fun
+  - DOMAIN-SUFFIX,bokep88.name
+  
+  # Situs Tambahan
+  - DOMAIN-SUFFIX,aznude.com
+  - DOMAIN-SUFFIX,nudography.com
+  - DOMAIN-SUFFIX,celebjihad.com
+  - DOMAIN-SUFFIX,celebsflash.com
+  - DOMAIN-SUFFIX,daftporn.com
+  - DOMAIN-SUFFIX,nudeceleb.com
+  - DOMAIN-SUFFIX,porngals.com
+  - DOMAIN-SUFFIX,mrporngeek.com
+  - DOMAIN-SUFFIX,xopenload.me
+  - DOMAIN-SUFFIX,sextubefun.com
+  - DOMAIN-SUFFIX,fuckpussy.cc
+  - DOMAIN-SUFFIX,xvideo-xxx.org
+  - DOMAIN-SUFFIX,hdpornvideos.xxx
+  - DOMAIN-SUFFIX,jizzle.com
+  - DOMAIN-SUFFIX,faphouse.com
+  - DOMAIN-SUFFIX,wetpussygames.com
+  - DOMAIN-SUFFIX,porngames.com
+  - DOMAIN-SUFFIX,bravoporn.com
+  - DOMAIN-SUFFIX,wapoz.mobi
+  - DOMAIN-SUFFIX,watchmygf.tv
+  - DOMAIN-SUFFIX,shufuni.com
+  - DOMAIN-SUFFIX,18onlygirls.com
   - DOMAIN-SUFFIX,twistys.com
-  - DOMAIN-SUFFIX,onlyfans.com
-  - DOMAIN-SUFFIX,javhd.com
-  - DOMAIN-SUFFIX,javlibrary.com
-  - DOMAIN-SUFFIX,r18.com
-  - DOMAIN-SUFFIX,donmai.us
-  - DOMAIN-SUFFIX,gelbooru.com
-  - DOMAIN-SUFFIX,e-hentai.org
-  - DOMAIN-SUFFIX,nhentai.net
-  - DOMAIN-SUFFIX,sankakucomplex.com
-  - DOMAIN-SUFFIX,rule34.xxx
-  - DOMAIN-SUFFIX,danbooru.donmai.us
-  - DOMAIN-SUFFIX,hentai-foundry.com
-  - DOMAIN-SUFFIX,booru.org
-  
-  # Porn - Indonesia Specific
-  - DOMAIN-SUFFIX,bokepindo.cam
-  - DOMAIN-SUFFIX,videobokepindonesia.org
-  - DOMAIN-SUFFIX,indoxxi.info
-  - DOMAIN-SUFFIX,semprot.com
-  - DOMAIN-SUFFIX,17cinemaxx.com
-  - DOMAIN-SUFFIX,bomjav.com
-  - DOMAIN-SUFFIX,nontonbokep.top
-  - DOMAIN-SUFFIX,playbokep.me
-  - DOMAIN-SUFFIX,bokepindohot.pw
-  
-  # Porn - CDNs and Resources
-  - DOMAIN-SUFFIX,cdn13.com
-  - DOMAIN-SUFFIX,pornimg.xyz
-  - DOMAIN-SUFFIX,thumbzilla.com
-  - DOMAIN-SUFFIX,trafficjunky.net
-  - DOMAIN-SUFFIX,contentabc.com
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,cdn1122.com
-  - DOMAIN-SUFFIX,img.javstore.net
-  - DOMAIN-SUFFIX,nsimg.net
-  - DOMAIN-SUFFIX,static-clst.avgle.com
-  - DOMAIN-SUFFIX,vjs.zencdn.net
-  - DOMAIN-SUFFIX,recurbate.com
-  - DOMAIN-SUFFIX,highwebmedia.com
-  - DOMAIN-SUFFIX,camster.com
-  - DOMAIN-SUFFIX,imlive.com
-  - DOMAIN-SUFFIX,adxxx.com
-  - DOMAIN-SUFFIX,contentdef.com
-  - DOMAIN-SUFFIX,adtng.com
-  - DOMAIN-SUFFIX,juicyads.com
-  - DOMAIN-SUFFIX,exosrv.com
-  - DOMAIN-SUFFIX,etahub.com
-  - DOMAIN-SUFFIX,trafficstars.com
+  - DOMAIN-SUFFIX,adultdvdempire.com
+  - DOMAIN-SUFFIX,sexhdx.com
+  - DOMAIN-SUFFIX,fuckbookhookups.com
+  - DOMAIN-SUFFIX,hqbabes.com
+  - DOMAIN-SUFFIX,girlscanner.net
+  - DOMAIN-SUFFIX,thefappening.pro
+  - DOMAIN-SUFFIX,thefappeningnew.com
