@@ -9870,9 +9870,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
   - DOMAIN,go.ezoic.net
 # [fabric.io]
   - DOMAIN,fabric.io
-# [facebook.com]
-  - DOMAIN,an.facebook.com
-  - DOMAIN,pixel.facebook.com
 # [fam-ad.com]
   - DOMAIN,fam-ad.com
 # [fastapi.net]
@@ -13898,12 +13895,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 # [tidaltv.com]
   - DOMAIN,tidaltv.com
   - DOMAIN,trk.tidaltv.com
-# [tiktok.com]
-  - DOMAIN,analytics.tiktok.com
-# [tiktokv.com]
-  - DOMAIN,log-va.tiktokv.com
-  - DOMAIN,mon.tiktokv.com
-  - DOMAIN,mon-va.tiktokv.com
 # [tiltingpoint.io]
   - DOMAIN,registration.tiltingpoint.io
   - DOMAIN,utctime.tiltingpoint.io
@@ -15470,34 +15461,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
   - DOMAIN-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
   - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
-
-  # TikTok Ads (detail)
-  - DOMAIN-SUFFIX,dm-maliva16.byteoversea.com
-  - DOMAIN-SUFFIX,tiktokcdn-in.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,tiktok-platform-lb.com
-  - DOMAIN-SUFFIX,tiktokv.com.c.footprint.net
-  - DOMAIN-SUFFIX,p16-ad-sg.ibyteimg.com
-  - DOMAIN-SUFFIX,p16-amd-sg.ibyteimg.com
-  - DOMAIN-SUFFIX,p16-tiktok-sg.ibyteimg.com
-  - DOMAIN-SUFFIX,p16-tiktok-sign-va.ibyteimg.com
-  - DOMAIN-SUFFIX,bytedapm.com
-  - DOMAIN-SUFFIX,bytegecko.com
-  - DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,byteimg.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,musemuse.cn
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,tiktok-us.com
-  - DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,tiktokv.com
 
   # IOS App Analisis & Tracking
   - DOMAIN-SUFFIX,app-measurement.com
