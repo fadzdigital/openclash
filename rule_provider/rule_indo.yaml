@@ -50,7 +50,46 @@ payload:
   - DOMAIN-SUFFIX,firstmedia.com
   - DOMAIN-SUFFIX,biznet.id
   - DOMAIN-SUFFIX,cbn.id
+
+  # ChatGPT / OpenAI
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,chat.openai.com
+  - DOMAIN-SUFFIX,auth0.openai.com
+  - DOMAIN-SUFFIX,api.openai.com
+  - DOMAIN-SUFFIX,platform.openai.com
   
+  # Claude AI
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,api.anthropic.com
+  
+  # Google Gemini / Bard
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  
+  # Microsoft Copilot
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,bing.com
+  
+  # AI Image Generation
+  - DOMAIN-SUFFIX,stablediffusionweb.com
+  - DOMAIN-SUFFIX,stability.ai
+  - DOMAIN-SUFFIX,replicate.com
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,leonardo.ai
+  
+  # AI General
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,ai-platform
+ 
   # Media & Berita Indonesia
   - DOMAIN-SUFFIX,detik.com
   - DOMAIN-SUFFIX,kompas.com
