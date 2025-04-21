@@ -1,0 +1,173 @@
+payload:
+  # Bank Jago
+  - DOMAIN-SUFFIX,jago.id
+  - DOMAIN-SUFFIX,jago.com
+  - DOMAIN-SUFFIX,jagoapi.com
+  - DOMAIN-KEYWORD,jago
+  
+  # DANA
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-SUFFIX,dana.plus
+  - DOMAIN-SUFFIX,dana.money
+  - DOMAIN-SUFFIX,danafix.id
+  - DOMAIN-SUFFIX,danamas.co.id
+  - DOMAIN-KEYWORD,dana
+  
+  # GoPay / Gojek
+  - DOMAIN-SUFFIX,gopay.co.id
+  - DOMAIN-SUFFIX,gojek.com
+  - DOMAIN-SUFFIX,gojek.io
+  - DOMAIN-SUFFIX,gojekapi.com
+  - DOMAIN-SUFFIX,gobills.id
+  - DOMAIN-SUFFIX,gocar.id
+  - DOMAIN-SUFFIX,gofood.co.id
+  - DOMAIN-KEYWORD,gopay
+  - DOMAIN-KEYWORD,gojek
+  
+  # OVO
+  - DOMAIN-SUFFIX,ovo.id
+  - DOMAIN-SUFFIX,ovoid.id
+  - DOMAIN-KEYWORD,ovo
+  
+  # Bank BCA
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-SUFFIX,klikbca.com
+  - DOMAIN-SUFFIX,m.klikbca.com
+  - DOMAIN-SUFFIX,mybank.klikbca.com
+  - DOMAIN-SUFFIX,bluebca.com
+  - DOMAIN-SUFFIX,bca.id
+  - DOMAIN-SUFFIX,bcadigital.co.id
+  - DOMAIN-SUFFIX,bca-syariah.co.id
+  - DOMAIN-SUFFIX,bcasekuritas.co.id
+  - DOMAIN-KEYWORD,bca
+  
+  # Bank Mandiri
+  - DOMAIN-SUFFIX,bankmandiri.co.id
+  - DOMAIN-SUFFIX,mandiri.co.id
+  - DOMAIN-SUFFIX,mandirikartukredit.com
+  - DOMAIN-SUFFIX,livin.mandiri.co.id
+  - DOMAIN-SUFFIX,mandirionline.co.id
+  - DOMAIN-SUFFIX,mandirismb.com
+  - DOMAIN-SUFFIX,bankmandiri.id
+  - DOMAIN-SUFFIX,mandiritunas.com
+  - DOMAIN-SUFFIX,mandiri-investasi.co.id
+  - DOMAIN-KEYWORD,mandiri
+  
+  # Bank BNI
+  - DOMAIN-SUFFIX,bni.co.id
+  - DOMAIN-SUFFIX,bni.id
+  - DOMAIN-SUFFIX,bnisyariah.co.id
+  - DOMAIN-SUFFIX,bnizona.com
+  - DOMAIN-SUFFIX,digibni.id
+  - DOMAIN-KEYWORD,bni
+  
+  # Bank BRI
+  - DOMAIN-SUFFIX,bri.co.id
+  - DOMAIN-SUFFIX,bri.id
+  - DOMAIN-SUFFIX,brimo.com
+  - DOMAIN-SUFFIX,bricash.id
+  - DOMAIN-SUFFIX,brisyariah.co.id
+  - DOMAIN-SUFFIX,briagro.id
+  - DOMAIN-SUFFIX,brivopay.com
+  - DOMAIN-SUFFIX,briapi.co.id
+  - DOMAIN-KEYWORD,bri
+  
+  # ShopeePay
+  - DOMAIN-SUFFIX,shopeepay.com
+  - DOMAIN-SUFFIX,shopeepay.co.id
+  - DOMAIN-KEYWORD,shopeepay
+  
+  # LinkAja
+  - DOMAIN-SUFFIX,linkaja.id
+  - DOMAIN-SUFFIX,linkaja.com
+  - DOMAIN-KEYWORD,linkaja
+  
+  # Jenius / BTPN
+  - DOMAIN-SUFFIX,jenius.id
+  - DOMAIN-SUFFIX,jenius.com
+  - DOMAIN-SUFFIX,btpn.com
+  - DOMAIN-SUFFIX,btpn.co.id
+  - DOMAIN-SUFFIX,btpn.mobile
+  - DOMAIN-KEYWORD,jenius
+  - DOMAIN-KEYWORD,btpn
+  
+  # Blu by BCA
+  - DOMAIN-SUFFIX,blu.id
+  - DOMAIN-SUFFIX,blubyBCA.id
+  - DOMAIN-KEYWORD,blu
+  
+  # CIMB Niaga / OCTO
+  - DOMAIN-SUFFIX,cimbniaga.co.id
+  - DOMAIN-SUFFIX,octo.com
+  - DOMAIN-SUFFIX,octoclicks.co.id
+  - DOMAIN-SUFFIX,cimbniaga.id
+  - DOMAIN-KEYWORD,cimb
+  - DOMAIN-KEYWORD,octo
+  
+  # Permata Bank
+  - DOMAIN-SUFFIX,permatabank.com
+  - DOMAIN-SUFFIX,permata.co.id
+  - DOMAIN-SUFFIX,permatanet.com
+  - DOMAIN-KEYWORD,permata
+  
+  # Maybank
+  - DOMAIN-SUFFIX,maybank.co.id
+  - DOMAIN-SUFFIX,maybank2u.co.id
+  - DOMAIN-KEYWORD,maybank
+  
+  # Bank BJB
+  - DOMAIN-SUFFIX,bjb.co.id
+  - DOMAIN-SUFFIX,bjbsyariah.co.id
+  - DOMAIN-KEYWORD,bjb
+  
+  # Bank DKI
+  - DOMAIN-SUFFIX,bankdki.co.id
+  - DOMAIN-SUFFIX,dki.co.id
+  - DOMAIN-KEYWORD,bankdki
+  
+  # Bank Mega
+  - DOMAIN-SUFFIX,bankmega.com
+  - DOMAIN-SUFFIX,mega.co.id
+  - DOMAIN-KEYWORD,bankmega
+  
+  # Bank Danamon
+  - DOMAIN-SUFFIX,danamon.co.id
+  - DOMAIN-SUFFIX,danamonline.com
+  - DOMAIN-KEYWORD,danamon
+  
+  # Alipay
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipay.id
+  - DOMAIN-SUFFIX,alipaydaily.com
+  - DOMAIN-KEYWORD,alipay
+  
+  # BSI (Bank Syariah Indonesia)
+  - DOMAIN-SUFFIX,bankbsi.co.id
+  - DOMAIN-SUFFIX,bsimobile.co.id
+  - DOMAIN-KEYWORD,bsi
+  
+  # Neo Commerce
+  - DOMAIN-SUFFIX,neobank.id
+  - DOMAIN-SUFFIX,neocommerce.co.id
+  - DOMAIN-KEYWORD,neobank
+  - DOMAIN-KEYWORD,neocommerce
+  
+  # Seabank
+  - DOMAIN-SUFFIX,seabank.co.id
+  - DOMAIN-SUFFIX,seabank.id
+  - DOMAIN-KEYWORD,seabank
+  
+  # Bank Sinarmas
+  - DOMAIN-SUFFIX,banksinarmas.com
+  - DOMAIN-SUFFIX,sinarmas.co.id
+  - DOMAIN-KEYWORD,sinarmas
+  
+  # Bank Nobu
+  - DOMAIN-SUFFIX,nobubank.com
+  - DOMAIN-SUFFIX,nobu.id
+  - DOMAIN-KEYWORD,nobubank
+  
+  # UOB
+  - DOMAIN-SUFFIX,uob.co.id
+  - DOMAIN-SUFFIX,uobgroup.com
+  - DOMAIN-KEYWORD,uob
