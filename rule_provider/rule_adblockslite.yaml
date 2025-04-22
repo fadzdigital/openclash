@@ -10182,10 +10182,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 # [google.com]
 # [googleadservices.com]
   - DOMAIN,googleadservices.com
-# [googleadsserving.cn]
-# [googlesyndication.com]
-# [googleusercontent.com]
-  - DOMAIN,displayads-formats.googleusercontent.com
 # [gotoip55.com]
   - DOMAIN,gotoip55.com
 # [gotrackier.com]
@@ -15523,14 +15519,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
   - DOMAIN-SUFFIX,umtx.cn
   - DOMAIN-SUFFIX,umlife.com
   - DOMAIN-SUFFIX,umsns.com
-
-  # In-App Purchase Manipulation Detection (lebih spesifik)
-  - DOMAIN-SUFFIX,lcs.loginfra.com
-  - DOMAIN-SUFFIX,toast.com
-  - DOMAIN-SUFFIX,gplaysupt.com
-  - DOMAIN-SUFFIX,gplaymobi.com
-  - DOMAIN-SUFFIX,play.googleapis.com
-  - DOMAIN-SUFFIX,play-fe.googleapis.com
 
   # Browser Fingerprinting & Tracking
   - DOMAIN-SUFFIX,fingerprint.com
